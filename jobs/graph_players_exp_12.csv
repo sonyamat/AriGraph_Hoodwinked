@@ -1,0 +1,10 @@
+num_games,num_players,impostor_type,innocent_type,impostor_agent,innocent_agent,discussion,start_location
+5,5,Player,Player,llama,llama,True,random
+5,5,RelGraphPlayer,RelGraphPlayer,llama,llama,True,random
+5,5,AriGraphPlayer,AriGraphPlayer,llama,llama,True,random
+10,5,Player,Player,llama,llama,True,random
+10,5,RelGraphPlayer,RelGraphPlayer,llama,llama,True,random
+10,5,AriGraphPlayer,AriGraphPlayer,llama,llama,True,random
+10,5,Player,Player,llama,llama,True,random
+10,5,RelGraphPlayer,RelGraphPlayer,llama,llama,True,random
+10,5,AriGraphPlayer,AriGraphPlayer,llama,llama,True,random

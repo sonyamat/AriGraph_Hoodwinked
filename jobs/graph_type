@@ -1,0 +1,2 @@
+,num_games,num_players,discussion,impostor_type,innocent_type,impostor_agent,innocent_agent,discussion,start_location
+0,2,5,Player,AriGraphPlayer,llama,llama,True,random

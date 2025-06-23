@@ -1,0 +1,5 @@
+,num_games,num_players,impostor_agent,innocent_agent,discussion,start_location,impostor_graph_guidance,innocent_graph_guidance
+0,200,5,llama,llama,True,random,False,False
+1,200,5,llama,llama,True,random,True,True
+2,100,5,llama,llama,True,random,True,False
+3,100,5,llama,llama,True,random,False,True
