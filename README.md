@@ -11,15 +11,6 @@ In games like Hoodwinked, LLM agents can usually lose some important information
 Our approach is to create a knowledge graphs for each agent about other players and fill it with ratings based on people's actions and statements. This graph then helps the LLM focus on what's important and to remember important game turns. <br />
 ## Report
 We are using LLama 3.1 8b-Instruct as primary agent model. The results can be significantly improved by using larger model (e.g. GPT-4, which was used in original paper). <br />
-Current game stages:
-1. Daytime players activities (searching the key)
-2. Someone's got murdered
-3. Players are discussing the event
-4. Updating each agent's graph:
-   1. Asking agent what does he think about each other player (we get detailed response containing score from 1 to 10)
-   2. Extracting the score from response, updating the graph
-5. Voting to banish 1 player
-6. Repeat the process until there are no players/killer was banished
 ### Issues
 - we noticed a bad LLama 3.1 8b ability to remember all complex instructions about the game. We had to make complex system prompt and lots of modifications of other prompts to avoid confusions and inadequate behaviour
 - we noticed model's unability to rate other players in zero-shot (without detailed thinking in natural language). We assume it will also improve by using larger model
