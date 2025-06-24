@@ -1,6 +1,4 @@
-# AriGraph_Hoodwinked
-
-# Using graph structure to contain player relationships in Hoodwinked
+# Using knoweledge graphs in Hoodwinked text game
 
 This repo is based on "[Hoodwinked: Cooperation and Deception in a Text-Based Game for Language Models](https://arxiv.org/abs/2308.01404)" and "[AriGraph: Learning Knowledge Graph World Models with Episodic Memory for LLM Agents](https://arxiv.org/abs/2407.04363)". Hoodwinked is a text-based murder mystery game modeled after Mafia and Among Us. By forcing humans and language models to communicate in a strategic environment, this game evaluates the skills of deception, lie detection, and goal-directed communication.
 
