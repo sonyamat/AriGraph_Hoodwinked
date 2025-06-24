@@ -8,7 +8,7 @@ As an alternative to AriGraph, we also provide an agent with much simpler graph 
 
 ## What is this project about?
 In games like Hoodwinked, LLM agents can usually lose some important information about other players and their actions. In some studies, it is common to use context summarization to extract important things. <br />
-Our approach is to create a knowledge graph for each agent about other players and fill it with ratings based on people's actions and statements. This graph then helps the LLM focus on what's important, remembering who their friend is and who their enemy is. <br />
+Our approach is to create a knowledge graphs for each agent about other players and fill it with ratings based on people's actions and statements. This graph then helps the LLM focus on what's important and to remember important game turns. <br />
 ## Report
 We are using LLama 3.1 8b-Instruct as primary agent model. The results can be significantly improved by using larger model (e.g. GPT-4, which was used in original paper). <br />
 Current game stages:
