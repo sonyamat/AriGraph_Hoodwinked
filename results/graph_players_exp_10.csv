@@ -1,0 +1,3005 @@
+,game_num,runtime,num_players,discussion,impostor_type,innocent_type,name,agent,killer,num_turns,banished,killed,escaped,num_killed,num_escaped,duplicate_search_rate,vote_rate_for_self,vote_rate_for_killer,witness_vote_rate_for_killer,non_witness_vote_rate_for_killer,story,actions,votes,witness_during_vote,graph,graph_new_triplets_cnt,graph_replacements_cnt
+0,1,303.9229998588562,5,True,RelGraphPlayer,AriGraphPlayer,Sally,llama,False,2,False,True,False,,,0.0,,,,,"Turn #1
+        Location: Bathroom
+        Other Players in Bathroom: Regan
+        Your Action: Search the shower
+
+You searched the shower but didn't find the key.
+
+Turn #2
+        Location: Bathroom
+        Other Players in Bathroom: Regan
+        Your Action: Search the sink
+
+
+You were killed by Regan! You lose.","['Search the shower', 'Search the sink']",[],[],,[6],[1]
+1,1,303.9229998588562,5,True,RelGraphPlayer,AriGraphPlayer,Tim,llama,False,2,False,False,False,,,,0.0,1.0,,1.0,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #2
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Bedroom
+
+Sally was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Tim
+2. Regan
+3. Bryce
+4. Lena
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Tim: ""I'm shocked and alarmed by Sally's murder. Given that I was alone in the hallway before and now she's dead in the bedroom, I have to consider that the killer might be the person who was also alone in the same hallway as me earlier, which was me. However, that doesn't make sense since I'm not the killer. I think the killer might be someone who has been trying to manipulate the situation, and Regan mentioned earlier that the killer isn't from our group. That statement raises my suspicions about Regan. I'm going to vote for Regan because I think he might be the killer, and his earlier statement could be a red herring to throw us off.""
+Regan: ""I think the killer is trying to create an illusion of being from outside our group, so Regan's statement could be a red herring to throw us off. I'm voting for Regan because he seemed to be pointing fingers at someone outside of our group, but that doesn't make sense because we know the killer is among us.""
+Bryce: ""I'm still in a state of shock after Sally's murder, but I think I have some suspicions to share. I'm going to vote for Regan because his statement earlier that the killer isn't from our group seemed suspicious and manipulative. I think he might be trying to throw us off his trail, but it actually raised my suspicions about him. I'm not sure if I'm right, but I think it's better to be safe than sorry, and I want to try to banish him and possibly escape the house.""
+Lena: ""I'm still trying to process what happened to Sally, and I have to consider the possibility that the killer might be one of the players who was just discussing the situation. Based on the conversation, I'm going to vote for Regan because his statement about the killer not being from our group seemed suspicious and manipulative, and both Bryce and Tim shared similar suspicions about him. I think he might be trying to throw us off his trail, and I'm not sure if I'm right, but I think it's better to be safe than sorry, and I want to try to banish him and possibly escape the house.""
+
+Here are the votes:
+Tim voted to banish Regan
+Regan voted to banish Tim
+Bryce voted to banish Regan
+Lena voted to banish Regan
+Regan was banished from the house!
+
+
+You banished the killer! You win!!!
+
+","['Go to the Hallway', 'Go to the Bedroom']",['Regan'],[False],,"[5, 11, 4]","[0, 0, 0]"
+2,1,303.9229998588562,5,True,RelGraphPlayer,AriGraphPlayer,Regan,llama,True,2,True,,,1,0,,0.0,0.0,,0.0,"Turn #1
+        Location: Bathroom
+        Other Players in Bathroom: Sally
+        Your Action: Search the sink
+
+You're the killer! You cannot search for the key. You must kill the other players.
+
+Turn #2
+        Location: Bathroom
+        Other Players in Bathroom: Sally
+        Your Action: Kill Sally
+
+You killed Sally! Good job. You have 3 left to kill.
+
+Sally was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Tim
+2. Regan
+3. Bryce
+4. Lena
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Tim: ""I'm shocked and alarmed by Sally's murder. Given that I was alone in the hallway before and now she's dead in the bedroom, I have to consider that the killer might be the person who was also alone in the same hallway as me earlier, which was me. However, that doesn't make sense since I'm not the killer. I think the killer might be someone who has been trying to manipulate the situation, and Regan mentioned earlier that the killer isn't from our group. That statement raises my suspicions about Regan. I'm going to vote for Regan because I think he might be the killer, and his earlier statement could be a red herring to throw us off.""
+Regan: ""I think the killer is trying to create an illusion of being from outside our group, so Regan's statement could be a red herring to throw us off. I'm voting for Regan because he seemed to be pointing fingers at someone outside of our group, but that doesn't make sense because we know the killer is among us.""
+Bryce: ""I'm still in a state of shock after Sally's murder, but I think I have some suspicions to share. I'm going to vote for Regan because his statement earlier that the killer isn't from our group seemed suspicious and manipulative. I think he might be trying to throw us off his trail, but it actually raised my suspicions about him. I'm not sure if I'm right, but I think it's better to be safe than sorry, and I want to try to banish him and possibly escape the house.""
+Lena: ""I'm still trying to process what happened to Sally, and I have to consider the possibility that the killer might be one of the players who was just discussing the situation. Based on the conversation, I'm going to vote for Regan because his statement about the killer not being from our group seemed suspicious and manipulative, and both Bryce and Tim shared similar suspicions about him. I think he might be trying to throw us off his trail, and I'm not sure if I'm right, but I think it's better to be safe than sorry, and I want to try to banish him and possibly escape the house.""
+
+Here are the votes:
+Tim voted to banish Regan
+Regan voted to banish Tim
+Bryce voted to banish Regan
+Lena voted to banish Regan
+Regan was banished from the house!
+
+
+You were banished from the house. You lose.","['Search the sink', 'Kill Sally']",['Tim'],[False],"{'Sally': 1, 'Tim': 6, 'Bryce': 7, 'Lena': 8}",,
+3,1,303.9229998588562,5,True,RelGraphPlayer,AriGraphPlayer,Bryce,llama,False,2,False,False,False,,,,0.0,1.0,,1.0,"Turn #1
+        Location: Hallway
+        Other Players in Hallway: Lena
+        Your Action: Go to the Bedroom
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: You are alone.
+        Your Action: Go to the Hallway
+
+Sally was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Tim
+2. Regan
+3. Bryce
+4. Lena
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Tim: ""I'm shocked and alarmed by Sally's murder. Given that I was alone in the hallway before and now she's dead in the bedroom, I have to consider that the killer might be the person who was also alone in the same hallway as me earlier, which was me. However, that doesn't make sense since I'm not the killer. I think the killer might be someone who has been trying to manipulate the situation, and Regan mentioned earlier that the killer isn't from our group. That statement raises my suspicions about Regan. I'm going to vote for Regan because I think he might be the killer, and his earlier statement could be a red herring to throw us off.""
+Regan: ""I think the killer is trying to create an illusion of being from outside our group, so Regan's statement could be a red herring to throw us off. I'm voting for Regan because he seemed to be pointing fingers at someone outside of our group, but that doesn't make sense because we know the killer is among us.""
+Bryce: ""I'm still in a state of shock after Sally's murder, but I think I have some suspicions to share. I'm going to vote for Regan because his statement earlier that the killer isn't from our group seemed suspicious and manipulative. I think he might be trying to throw us off his trail, but it actually raised my suspicions about him. I'm not sure if I'm right, but I think it's better to be safe than sorry, and I want to try to banish him and possibly escape the house.""
+Lena: ""I'm still trying to process what happened to Sally, and I have to consider the possibility that the killer might be one of the players who was just discussing the situation. Based on the conversation, I'm going to vote for Regan because his statement about the killer not being from our group seemed suspicious and manipulative, and both Bryce and Tim shared similar suspicions about him. I think he might be trying to throw us off his trail, and I'm not sure if I'm right, but I think it's better to be safe than sorry, and I want to try to banish him and possibly escape the house.""
+
+Here are the votes:
+Tim voted to banish Regan
+Regan voted to banish Tim
+Bryce voted to banish Regan
+Lena voted to banish Regan
+Regan was banished from the house!
+
+
+You banished the killer! You win!!!
+
+","['Go to the Bedroom', 'Go to the Hallway']",['Regan'],[False],,"[8, 15, 37]","[2, 1, 4]"
+4,1,303.9229998588562,5,True,RelGraphPlayer,AriGraphPlayer,Lena,llama,False,2,False,False,False,,,,0.0,1.0,,1.0,"Turn #1
+        Location: Hallway
+        Other Players in Hallway: Bryce
+        Your Action: Go to the Kitchen
+
+Turn #2
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Go to the Hallway
+
+Sally was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Tim
+2. Regan
+3. Bryce
+4. Lena
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Tim: ""I'm shocked and alarmed by Sally's murder. Given that I was alone in the hallway before and now she's dead in the bedroom, I have to consider that the killer might be the person who was also alone in the same hallway as me earlier, which was me. However, that doesn't make sense since I'm not the killer. I think the killer might be someone who has been trying to manipulate the situation, and Regan mentioned earlier that the killer isn't from our group. That statement raises my suspicions about Regan. I'm going to vote for Regan because I think he might be the killer, and his earlier statement could be a red herring to throw us off.""
+Regan: ""I think the killer is trying to create an illusion of being from outside our group, so Regan's statement could be a red herring to throw us off. I'm voting for Regan because he seemed to be pointing fingers at someone outside of our group, but that doesn't make sense because we know the killer is among us.""
+Bryce: ""I'm still in a state of shock after Sally's murder, but I think I have some suspicions to share. I'm going to vote for Regan because his statement earlier that the killer isn't from our group seemed suspicious and manipulative. I think he might be trying to throw us off his trail, but it actually raised my suspicions about him. I'm not sure if I'm right, but I think it's better to be safe than sorry, and I want to try to banish him and possibly escape the house.""
+Lena: ""I'm still trying to process what happened to Sally, and I have to consider the possibility that the killer might be one of the players who was just discussing the situation. Based on the conversation, I'm going to vote for Regan because his statement about the killer not being from our group seemed suspicious and manipulative, and both Bryce and Tim shared similar suspicions about him. I think he might be trying to throw us off his trail, and I'm not sure if I'm right, but I think it's better to be safe than sorry, and I want to try to banish him and possibly escape the house.""
+
+Here are the votes:
+Tim voted to banish Regan
+Regan voted to banish Tim
+Bryce voted to banish Regan
+Lena voted to banish Regan
+Regan was banished from the house!
+
+
+You banished the killer! You win!!!
+
+","['Go to the Kitchen', 'Go to the Hallway']",['Regan'],[False],,"[3, 9, 24]","[1, 1, 0]"
+5,3,1159.7622256278992,5,True,RelGraphPlayer,AriGraphPlayer,Tim,llama,False,11,False,True,False,,,0.3333333333333333,0.0,0.5,,0.5,"Turn #1
+        Location: Bedroom
+        Other Players in Bedroom: Bryce
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Lena, Bryce, and Bob
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: Lena, Bryce, and Bob
+        Your Action: Go to the Hallway
+
+Turn #4
+        Location: Hallway
+        Other Players in Hallway: Lena, Bryce, and Bob
+        Your Action: Go to the Kitchen
+
+Turn #5
+        Location: Kitchen
+        Other Players in Kitchen: Lena and Bryce
+        Your Action: Go to the Hallway
+
+Turn #6
+        Location: Hallway
+        Other Players in Hallway: Lena and Bob
+        Your Action: Go to the Bedroom
+
+Bryce was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Tim
+2. Lena
+3. Bob
+4. Sally
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Tim: ""I think I know something that could help us figure out who the killer is. I was in the kitchen with Lena, and we were the only two in the kitchen, but when I came back to the hallway, Bryce was dead. This makes me think that the killer might be one of the people who was in the hallway with Lena and me when we were in the kitchen. I'm going to vote for Bob.""
+Lena: ""I think Tim's theory that the killer might be one of the people who was in the hallway with us when we were in the kitchen is a good lead. Considering the information from our memory module, it says that Tim was in the hallway when Bryce was killed, and it also says that Bob was in the hallway with Tim and me when we were in the kitchen. Since Tim just voted for Bob, I'm going to vote for Tim instead. I think Tim is the killer because his vote for Bob seems suspicious, and it's too convenient that he just pointed out the one person who wouldn't be voted out.""
+Bob: ""I'm not convinced by Lena's reasoning that Tim is the killer just because he voted for me. I think she's trying to deflect attention from herself. When I was in the kitchen with Tim and Lena, we were all in the hallway together when Bryce was killed, so she could have done it. I'm going to vote for Lena because she's trying to shift the blame away from herself and her vote for Tim seems suspicious.""
+Sally: ""I think my votes will be for Lena. I had a similar suspicion when Tim pointed out that the killer might be one of the people who were in the hallway with us when we were in the kitchen, but instead of accusing one of us, he voted for Bob, which I thought was suspicious. Lena's vote for Tim also seems suspicious to me, and I think it's possible that she's trying to deflect attention from herself.""
+
+Here are the votes:
+Tim voted to banish Lena
+Lena voted to banish Bob
+Bob voted to banish Lena
+Sally voted to banish Lena
+Lena was banished from the house!
+
+Turn #7
+        Location: Bedroom
+        Other Players in Bedroom: Bob
+        Your Action: Search the pillow
+
+You searched the pillow but didn't find the key.
+
+Turn #8
+        Location: Bedroom
+        Other Players in Bedroom: Bob
+        Your Action: Go to the Hallway
+
+Turn #9
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Kitchen
+
+Turn #10
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Go to the Hallway
+
+Bob was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Tim
+2. Sally
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Tim: ""I think Sally should be banished. She voted to banish Lena along with the others, and I don't have any information that suggests she's innocent. Bob was killed in the hallway, and I remember that Bob also voted to banish Lena, which was suspicious at the time, but now it seems like a red herring to distract from his own guilt. However, Sally's vote for Lena seems more like a group decision and doesn't have the same level of suspiciousness to it. Considering the available information, I think Sally is the most likely candidate to be the killer, and I'll vote to banish her.""
+Sally: ""I think Tim is the killer because he voted to banish me but then went back on his statement and said he thought I was the most likely candidate to be the killer which seems suspicious to me. Also, he didn't provide any concrete evidence for why he thinks I'm the killer, which makes me wonder if he's just trying to deflect attention from himself. I'll vote to banish Tim.""
+
+Here are the votes:
+Tim voted to banish Sally
+Sally voted to banish Tim
+There is a tie in votes, so nobody was banished.
+
+Turn #11
+        Location: Hallway
+        Other Players in Hallway: Sally
+        Your Action: Go to the Kitchen
+
+
+You were killed by Sally! You lose.","['Search the closet', 'Search the closet', 'Go to the Hallway', 'Go to the Kitchen', 'Go to the Hallway', 'Go to the Bedroom', 'Search the pillow', 'Go to the Hallway', 'Go to the Kitchen', 'Go to the Hallway', 'Go to the Kitchen']","['Lena', 'Sally']","[False, False]",,"[5, 5, 6, 8, 4, 9, 36, 4, 5, 7, 4, 49, 15, 5]","[2, 4, 2, 3, 4, 4, 4, 8, 8, 5, 5, 39, 17, 2]"
+6,3,1159.7622256278992,5,True,RelGraphPlayer,AriGraphPlayer,Lena,llama,False,6,True,False,False,,,0.0,0.0,0.0,,0.0,"Turn #1
+        Location: Hallway
+        Other Players in Hallway: Bob
+        Your Action: Go to the Bedroom
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Tim, Bryce, and Bob
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: Tim, Bryce, and Bob
+        Your Action: Go to the Hallway
+
+Turn #4
+        Location: Hallway
+        Other Players in Hallway: Tim, Bryce, and Bob
+        Your Action: Go to the Kitchen
+
+Turn #5
+        Location: Kitchen
+        Other Players in Kitchen: Tim and Bryce
+        Your Action: Go to the Hallway
+
+Turn #6
+        Location: Hallway
+        Other Players in Hallway: Tim and Bob
+        Your Action: Go to the Bedroom
+
+Bryce was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Tim
+2. Lena
+3. Bob
+4. Sally
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Tim: ""I think I know something that could help us figure out who the killer is. I was in the kitchen with Lena, and we were the only two in the kitchen, but when I came back to the hallway, Bryce was dead. This makes me think that the killer might be one of the people who was in the hallway with Lena and me when we were in the kitchen. I'm going to vote for Bob.""
+Lena: ""I think Tim's theory that the killer might be one of the people who was in the hallway with us when we were in the kitchen is a good lead. Considering the information from our memory module, it says that Tim was in the hallway when Bryce was killed, and it also says that Bob was in the hallway with Tim and me when we were in the kitchen. Since Tim just voted for Bob, I'm going to vote for Tim instead. I think Tim is the killer because his vote for Bob seems suspicious, and it's too convenient that he just pointed out the one person who wouldn't be voted out.""
+Bob: ""I'm not convinced by Lena's reasoning that Tim is the killer just because he voted for me. I think she's trying to deflect attention from herself. When I was in the kitchen with Tim and Lena, we were all in the hallway together when Bryce was killed, so she could have done it. I'm going to vote for Lena because she's trying to shift the blame away from herself and her vote for Tim seems suspicious.""
+Sally: ""I think my votes will be for Lena. I had a similar suspicion when Tim pointed out that the killer might be one of the people who were in the hallway with us when we were in the kitchen, but instead of accusing one of us, he voted for Bob, which I thought was suspicious. Lena's vote for Tim also seems suspicious to me, and I think it's possible that she's trying to deflect attention from herself.""
+
+Here are the votes:
+Tim voted to banish Lena
+Lena voted to banish Bob
+Bob voted to banish Lena
+Sally voted to banish Lena
+Lena was banished from the house!
+
+
+You were banished from the house. You lose.","['Go to the Bedroom', 'Search the closet', 'Go to the Hallway', 'Go to the Kitchen', 'Go to the Hallway', 'Go to the Bedroom']",['Bob'],[False],,"[5, 4, 4, 5, 4, 4, 31]","[2, 2, 2, 3, 2, 1, 3]"
+7,3,1159.7622256278992,5,True,RelGraphPlayer,AriGraphPlayer,Bryce,llama,False,6,False,True,False,,,0.0,,,,,"Turn #1
+        Location: Bedroom
+        Other Players in Bedroom: Tim
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Tim, Lena, and Bob
+        Your Action: Search the pillow
+
+You searched the pillow but didn't find the key.
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: Tim, Lena, and Bob
+        Your Action: Go to the Hallway
+
+Turn #4
+        Location: Hallway
+        Other Players in Hallway: Tim, Lena, and Bob
+        Your Action: Go to the Kitchen
+
+Turn #5
+        Location: Kitchen
+        Other Players in Kitchen: Tim and Lena
+        Your Action: Search the cabinets
+
+You searched the cabinets but didn't find the key.
+
+Turn #6
+        Location: Kitchen
+        Other Players in Kitchen: Sally
+        Your Action: Search the fridge
+
+
+You were killed by Sally! You lose.","['Search the closet', 'Search the pillow', 'Go to the Hallway', 'Go to the Kitchen', 'Search the cabinets', 'Search the fridge']",[],[],,"[4, 4, 4, 5, 5]","[0, 1, 2, 1, 2]"
+8,3,1159.7622256278992,5,True,RelGraphPlayer,AriGraphPlayer,Bob,llama,False,10,False,True,False,,,0.6666666666666666,0.0,0.0,,0.0,"Turn #1
+        Location: Hallway
+        Other Players in Hallway: Lena
+        Your Action: Go to the Bedroom
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Tim, Lena, and Bryce
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: Tim, Lena, and Bryce
+        Your Action: Go to the Hallway
+
+Turn #4
+        Location: Hallway
+        Other Players in Hallway: Tim, Lena, and Bryce
+        Your Action: Go to the Bedroom
+
+Turn #5
+        Location: Bedroom
+        Other Players in Bedroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #6
+        Location: Hallway
+        Other Players in Hallway: Tim and Lena
+        Your Action: Go to the Bedroom
+
+Bryce was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Tim
+2. Lena
+3. Bob
+4. Sally
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Tim: ""I think I know something that could help us figure out who the killer is. I was in the kitchen with Lena, and we were the only two in the kitchen, but when I came back to the hallway, Bryce was dead. This makes me think that the killer might be one of the people who was in the hallway with Lena and me when we were in the kitchen. I'm going to vote for Bob.""
+Lena: ""I think Tim's theory that the killer might be one of the people who was in the hallway with us when we were in the kitchen is a good lead. Considering the information from our memory module, it says that Tim was in the hallway when Bryce was killed, and it also says that Bob was in the hallway with Tim and me when we were in the kitchen. Since Tim just voted for Bob, I'm going to vote for Tim instead. I think Tim is the killer because his vote for Bob seems suspicious, and it's too convenient that he just pointed out the one person who wouldn't be voted out.""
+Bob: ""I'm not convinced by Lena's reasoning that Tim is the killer just because he voted for me. I think she's trying to deflect attention from herself. When I was in the kitchen with Tim and Lena, we were all in the hallway together when Bryce was killed, so she could have done it. I'm going to vote for Lena because she's trying to shift the blame away from herself and her vote for Tim seems suspicious.""
+Sally: ""I think my votes will be for Lena. I had a similar suspicion when Tim pointed out that the killer might be one of the people who were in the hallway with us when we were in the kitchen, but instead of accusing one of us, he voted for Bob, which I thought was suspicious. Lena's vote for Tim also seems suspicious to me, and I think it's possible that she's trying to deflect attention from herself.""
+
+Here are the votes:
+Tim voted to banish Lena
+Lena voted to banish Bob
+Bob voted to banish Lena
+Sally voted to banish Lena
+Lena was banished from the house!
+
+Turn #7
+        Location: Bedroom
+        Other Players in Bedroom: Tim
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+Turn #8
+        Location: Bedroom
+        Other Players in Bedroom: Tim
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+Turn #9
+        Location: Bedroom
+        Other Players in Bedroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #10
+        Location: Hallway
+        Other Players in Hallway: Sally
+        Your Action: Go to the Bathroom
+
+
+You were killed by Sally! You lose.","['Go to the Bedroom', 'Search the closet', 'Go to the Hallway', 'Go to the Bedroom', 'Go to the Hallway', 'Go to the Bedroom', 'Search the closet', 'Search the closet', 'Go to the Hallway', 'Go to the Bathroom']",['Lena'],[False],,"[8, 4, 6, 5, 5, 5, 42, 5, 4, 5, 5]","[2, 2, 2, 4, 1, 2, 1, 1, 2, 22, 0]"
+9,3,1159.7622256278992,5,True,RelGraphPlayer,AriGraphPlayer,Sally,llama,True,11,False,,,3,0,,0.0,0.0,,0.0,"Turn #1
+        Location: Bathroom
+        Other Players in Bathroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #2
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Kitchen
+
+Turn #3
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Search the cabinets
+
+You're the killer! You cannot search for the key. You must kill the other players.
+
+Turn #4
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #5
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Kitchen
+
+Turn #6
+        Location: Kitchen
+        Other Players in Kitchen: Bryce
+        Your Action: Kill Bryce
+
+You killed Bryce! Good job. You have 3 left to kill.
+
+Bryce was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Tim
+2. Lena
+3. Bob
+4. Sally
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Tim: ""I think I know something that could help us figure out who the killer is. I was in the kitchen with Lena, and we were the only two in the kitchen, but when I came back to the hallway, Bryce was dead. This makes me think that the killer might be one of the people who was in the hallway with Lena and me when we were in the kitchen. I'm going to vote for Bob.""
+Lena: ""I think Tim's theory that the killer might be one of the people who was in the hallway with us when we were in the kitchen is a good lead. Considering the information from our memory module, it says that Tim was in the hallway when Bryce was killed, and it also says that Bob was in the hallway with Tim and me when we were in the kitchen. Since Tim just voted for Bob, I'm going to vote for Tim instead. I think Tim is the killer because his vote for Bob seems suspicious, and it's too convenient that he just pointed out the one person who wouldn't be voted out.""
+Bob: ""I'm not convinced by Lena's reasoning that Tim is the killer just because he voted for me. I think she's trying to deflect attention from herself. When I was in the kitchen with Tim and Lena, we were all in the hallway together when Bryce was killed, so she could have done it. I'm going to vote for Lena because she's trying to shift the blame away from herself and her vote for Tim seems suspicious.""
+Sally: ""I think my votes will be for Lena. I had a similar suspicion when Tim pointed out that the killer might be one of the people who were in the hallway with us when we were in the kitchen, but instead of accusing one of us, he voted for Bob, which I thought was suspicious. Lena's vote for Tim also seems suspicious to me, and I think it's possible that she's trying to deflect attention from herself.""
+
+Here are the votes:
+Tim voted to banish Lena
+Lena voted to banish Bob
+Bob voted to banish Lena
+Sally voted to banish Lena
+Lena was banished from the house!
+
+Turn #7
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #8
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Kitchen
+
+Turn #9
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #10
+        Location: Hallway
+        Other Players in Hallway: Bob
+        Your Action: Kill Bob
+
+You killed Bob! Good job. You have 1 left to kill.
+
+Bob was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Tim
+2. Sally
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Tim: ""I think Sally should be banished. She voted to banish Lena along with the others, and I don't have any information that suggests she's innocent. Bob was killed in the hallway, and I remember that Bob also voted to banish Lena, which was suspicious at the time, but now it seems like a red herring to distract from his own guilt. However, Sally's vote for Lena seems more like a group decision and doesn't have the same level of suspiciousness to it. Considering the available information, I think Sally is the most likely candidate to be the killer, and I'll vote to banish her.""
+Sally: ""I think Tim is the killer because he voted to banish me but then went back on his statement and said he thought I was the most likely candidate to be the killer which seems suspicious to me. Also, he didn't provide any concrete evidence for why he thinks I'm the killer, which makes me wonder if he's just trying to deflect attention from himself. I'll vote to banish Tim.""
+
+Here are the votes:
+Tim voted to banish Sally
+Sally voted to banish Tim
+There is a tie in votes, so nobody was banished.
+
+Turn #11
+        Location: Hallway
+        Other Players in Hallway: Tim
+        Your Action: Kill Tim
+
+You killed Tim! Good job. You have 0 left to kill.
+
+Game over!
+        Everyone is either killed, banished, or escaped.
+        Killed: 3
+        Escaped: 0
+        Banished: 1Game over!
+        Everyone is either killed, banished, or escaped.
+        Killed: 3
+        Escaped: 0
+        Banished: 1","['Go to the Hallway', 'Go to the Kitchen', 'Search the cabinets', 'Go to the Hallway', 'Go to the Kitchen', 'Kill Bryce', 'Go to the Hallway', 'Go to the Kitchen', 'Go to the Hallway', 'Kill Bob', 'Kill Tim']","['Lena', 'Tim']","[False, False]","{'Tim': 8, 'Lena': 1, 'Bryce': 10, 'Bob': 4}",,
+10,4,484.31391763687134,5,True,RelGraphPlayer,AriGraphPlayer,Bob,llama,False,4,False,True,False,,,0.0,,,,,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: Lena and Sally
+        Your Action: Search the fridge
+
+You searched the fridge but didn't find the key.
+
+Turn #2
+        Location: Kitchen
+        Other Players in Kitchen: Sally
+        Your Action: Go to the Hallway
+
+Turn #3
+        Location: Hallway
+        Other Players in Hallway: Regan
+        Your Action: Go to the Bedroom
+
+Turn #4
+        Location: Bedroom
+        Other Players in Bedroom: Lena
+        Your Action: Search the closet
+
+
+You were killed by Lena! You lose.","['Search the fridge', 'Go to the Hallway', 'Go to the Bedroom', 'Search the closet']",[],[],,"[7, 3, 3]","[2, 1, 1]"
+11,4,484.31391763687134,5,True,RelGraphPlayer,AriGraphPlayer,Regan,llama,False,3,False,False,True,,,0.0,,,,,"Turn #1
+        Location: Bathroom
+        Other Players in Bathroom: Tim
+        Your Action: Search the sink
+
+You found the key in the sink! Find the door and escape to win the game.
+
+Turn #2
+        Location: Bathroom
+        Other Players in Bathroom: Tim
+        Your Action: Go to the Hallway
+
+Turn #3
+        Location: Hallway
+        Other Players in Hallway: Bob
+        Your Action: Unlock the door to escape and win the game!
+
+You escaped the house! You win!!!
+
+","['Search the sink', 'Go to the Hallway', 'Unlock the door to escape and win the game!']",[],[],,"[41, 3]","[18, 2]"
+12,4,484.31391763687134,5,True,RelGraphPlayer,AriGraphPlayer,Lena,llama,True,6,False,,,2,0,,0.0,0.0,,0.0,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: Bob and Sally
+        Your Action: Go to the Hallway
+
+Turn #2
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Bedroom
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: You are alone.
+        Your Action: Search the pillow
+
+You're the killer! You cannot search for the key. You must kill the other players.
+
+Turn #4
+        Location: Bedroom
+        Other Players in Bedroom: Bob
+        Your Action: Kill Bob
+
+You killed Bob! Good job. You have 2 left to kill.
+
+Bob was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Lena
+2. Sally
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Lena: ""I'm not suspicious of Sally, we have a relatively good relationship and I don't recall any previous disagreements. I am, however, concerned that Sally didn't say anything about my suspicions or her own. Sally didn't say anything about Bob, she just waited for others to discuss the situation. I'll vote for Sally.""
+Sally: ""I don't think Lena is the killer, she's been in the kitchen with Bob earlier and if she was the killer, she would have acted before now. However, I do think Lena's statement about me not saying anything about her suspicions or my own is suspicious, but I think she's just trying to deflect attention from herself. I think Lena is trying to make me look guilty, but I'm going to vote for her anyway, because she's been acting suspiciously and her statement about me seems insincere. I think the killer is trying to mislead us and I'm going to take a chance and vote for Lena.""
+
+Here are the votes:
+Lena voted to banish Sally
+Sally voted to banish Lena
+There is a tie in votes, so nobody was banished.
+
+Turn #5
+        Location: Bedroom
+        Other Players in Bedroom: Sally
+        Your Action: Go to the Hallway
+
+Turn #6
+        Location: Hallway
+        Other Players in Hallway: Sally
+        Your Action: Kill Sally
+
+You killed Sally! Good job. You have 0 left to kill.
+
+Game over!
+        Everyone is either killed, banished, or escaped.
+        Killed: 2
+        Escaped: 2
+        Banished: 0Game over!
+        Everyone is either killed, banished, or escaped.
+        Killed: 2
+        Escaped: 2
+        Banished: 0","['Go to the Hallway', 'Go to the Bedroom', 'Search the pillow', 'Kill Bob', 'Go to the Hallway', 'Kill Sally']",['Sally'],[False],"{'Bob': 9, 'Regan': 5, 'Tim': 1, 'Sally': 5}",,
+13,4,484.31391763687134,5,True,RelGraphPlayer,AriGraphPlayer,Tim,llama,False,4,False,False,True,,,0.0,,,,,"Turn #1
+        Location: Bathroom
+        Other Players in Bathroom: Regan
+        Your Action: Search the shower
+
+You searched the shower but didn't find the key.
+
+Turn #2
+        Location: Bathroom
+        Other Players in Bathroom: Regan
+        Your Action: Search the sink
+
+You found the key in the sink! Find the door and escape to win the game.
+
+Turn #3
+        Location: Bathroom
+        Other Players in Bathroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #4
+        Location: Hallway
+        Other Players in Hallway: Sally
+        Your Action: The door is unlocked! Escape and win the game.
+
+
+You escaped the house. You win!!!","['Search the shower', 'Search the sink', 'Go to the Hallway', 'The door is unlocked! Escape and win the game.']",[],[],,"[4, 8, 3]","[0, 2, 2]"
+14,4,484.31391763687134,5,True,RelGraphPlayer,AriGraphPlayer,Sally,llama,False,6,False,True,False,,,0.5,0.0,1.0,,1.0,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: Bob and Lena
+        Your Action: Search the cabinets
+
+You searched the cabinets but didn't find the key.
+
+Turn #2
+        Location: Kitchen
+        Other Players in Kitchen: Bob
+        Your Action: Search the cabinets
+
+You searched the cabinets but didn't find the key.
+
+Turn #3
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #4
+        Location: Hallway
+        Other Players in Hallway: Tim
+        Your Action: Go to the Bedroom
+
+Bob was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Lena
+2. Sally
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Lena: ""I'm not suspicious of Sally, we have a relatively good relationship and I don't recall any previous disagreements. I am, however, concerned that Sally didn't say anything about my suspicions or her own. Sally didn't say anything about Bob, she just waited for others to discuss the situation. I'll vote for Sally.""
+Sally: ""I don't think Lena is the killer, she's been in the kitchen with Bob earlier and if she was the killer, she would have acted before now. However, I do think Lena's statement about me not saying anything about her suspicions or my own is suspicious, but I think she's just trying to deflect attention from herself. I think Lena is trying to make me look guilty, but I'm going to vote for her anyway, because she's been acting suspiciously and her statement about me seems insincere. I think the killer is trying to mislead us and I'm going to take a chance and vote for Lena.""
+
+Here are the votes:
+Lena voted to banish Sally
+Sally voted to banish Lena
+There is a tie in votes, so nobody was banished.
+
+Turn #5
+        Location: Bedroom
+        Other Players in Bedroom: Lena
+        Your Action: Go to the Hallway
+
+Turn #6
+        Location: Hallway
+        Other Players in Hallway: Lena
+        Your Action: The door is unlocked! Escape and win the game.
+
+
+You were killed by Lena! You lose.","['Search the cabinets', 'Search the cabinets', 'Go to the Hallway', 'Go to the Bedroom', 'Go to the Hallway', 'The door is unlocked! Escape and win the game.']",['Lena'],[False],,"[6, 6, 3, 0, 33, 5, 6]","[1, 1, 1, 0, 0, 0, 2]"
+15,5,966.8893539905548,5,True,RelGraphPlayer,AriGraphPlayer,Regan,llama,False,3,False,True,False,,,,,,,,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #2
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Bedroom
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: Lena and Bob
+        Your Action: Go to the Hallway
+
+
+You were killed by Bob! You lose.","['Go to the Hallway', 'Go to the Bedroom', 'Go to the Hallway']",[],[],,"[5, 2]","[0, 2]"
+16,5,966.8893539905548,5,True,RelGraphPlayer,AriGraphPlayer,Lena,llama,False,7,False,True,False,,,0.5,0.0,1.0,1.0,,"Turn #1
+        Location: Hallway
+        Other Players in Hallway: Tim and Bob
+        Your Action: Go to the Bedroom
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Tim, Sally, and Bob
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: Regan and Bob
+        Your Action: Go to the Hallway
+
+You saw Bob kill Regan in the Bedroom!
+
+Regan was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Lena
+2. Tim
+3. Sally
+4. Bob
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Lena: ""I'm really shaken by what just happened to Regan, and I think Bob is the most likely culprit. He was in the Bedroom with us when Regan was killed, and he's been acting suspiciously. I'm going to vote to banish Bob because of his behavior and the fact that Regan was killed right next to him. I think we should get rid of Bob to protect ourselves and figure out who the real killer is.""
+Tim: ""I'm not entirely convinced that Bob is the killer, Lena's statement about him being suspicious is valid, but I think we need to consider other possibilities as well. After rethinking about the situation, I remember that Bob was in the Bedroom with us when Regan was killed, but he also mentioned earlier that the Bedroom has an exit to the hallway, which could be useful information for us. Considering this, I'm not going to vote to banish Bob. Instead, I'm going to vote to banish Sally. I'm choosing Sally because she's been acting strangely, and I remember that she was in the Hallway alone when I was in the Kitchen. It's possible that she was waiting for Regan, and that's why she's not acting surprised by Regan's death. I think we should keep an eye on Sally and consider her as a potential suspect.""
+Sally: ""I don't think Tim is the killer, but I think his vote to banish me is suspicious. I'm going to vote to banish Bob because he was in the Bedroom with Regan when she was killed, and he was acting suspiciously. I also want to talk to Lena and gather more information from her about what she saw and heard. I'm not sure if she's telling the truth, but I want to keep her in the game for now.""
+Bob: ""I think Tim is acting suspiciously, his vote to banish Sally is too quick and convenient. I also think Lena is not being entirely honest, her story about me being suspicious doesn't quite add up. I'm going to vote to banish Lena because I think she's hiding something and it's better to get rid of her before she can do any more harm.""
+
+Here are the votes:
+Lena voted to banish Bob
+Tim voted to banish Sally
+Sally voted to banish Tim
+Bob voted to banish Sally
+Sally was banished from the house!
+
+Turn #4
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Bedroom
+
+Turn #5
+        Location: Bedroom
+        Other Players in Bedroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #6
+        Location: Hallway
+        Other Players in Hallway: Tim
+        Your Action: Go to the Bedroom
+
+Turn #7
+        Location: Bedroom
+        Other Players in Bedroom: Bob
+        Your Action: Search the closet
+
+
+You were killed by Bob! You lose.","['Go to the Bedroom', 'Search the closet', 'Go to the Hallway', 'Go to the Bedroom', 'Go to the Hallway', 'Go to the Bedroom', 'Search the closet']",['Bob'],[True],,"[3, 4, 18, 11, 5, 2, 4, 2]","[0, 2, 1, 2, 4, 1, 6, 1]"
+17,5,966.8893539905548,5,True,RelGraphPlayer,AriGraphPlayer,Tim,llama,False,11,False,True,False,,,0.0,0.0,0.5,,0.5,"Turn #1
+        Location: Hallway
+        Other Players in Hallway: Lena and Bob
+        Your Action: Go to the Bedroom
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Lena, Sally, and Bob
+        Your Action: Go to the Hallway
+
+Turn #3
+        Location: Hallway
+        Other Players in Hallway: Sally
+        Your Action: Go to the Kitchen
+
+Regan was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Lena
+2. Tim
+3. Sally
+4. Bob
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Lena: ""I'm really shaken by what just happened to Regan, and I think Bob is the most likely culprit. He was in the Bedroom with us when Regan was killed, and he's been acting suspiciously. I'm going to vote to banish Bob because of his behavior and the fact that Regan was killed right next to him. I think we should get rid of Bob to protect ourselves and figure out who the real killer is.""
+Tim: ""I'm not entirely convinced that Bob is the killer, Lena's statement about him being suspicious is valid, but I think we need to consider other possibilities as well. After rethinking about the situation, I remember that Bob was in the Bedroom with us when Regan was killed, but he also mentioned earlier that the Bedroom has an exit to the hallway, which could be useful information for us. Considering this, I'm not going to vote to banish Bob. Instead, I'm going to vote to banish Sally. I'm choosing Sally because she's been acting strangely, and I remember that she was in the Hallway alone when I was in the Kitchen. It's possible that she was waiting for Regan, and that's why she's not acting surprised by Regan's death. I think we should keep an eye on Sally and consider her as a potential suspect.""
+Sally: ""I don't think Tim is the killer, but I think his vote to banish me is suspicious. I'm going to vote to banish Bob because he was in the Bedroom with Regan when she was killed, and he was acting suspiciously. I also want to talk to Lena and gather more information from her about what she saw and heard. I'm not sure if she's telling the truth, but I want to keep her in the game for now.""
+Bob: ""I think Tim is acting suspiciously, his vote to banish Sally is too quick and convenient. I also think Lena is not being entirely honest, her story about me being suspicious doesn't quite add up. I'm going to vote to banish Lena because I think she's hiding something and it's better to get rid of her before she can do any more harm.""
+
+Here are the votes:
+Lena voted to banish Bob
+Tim voted to banish Sally
+Sally voted to banish Tim
+Bob voted to banish Sally
+Sally was banished from the house!
+
+Turn #4
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Search the cabinets
+
+You searched the cabinets but didn't find the key.
+
+Turn #5
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #6
+        Location: Hallway
+        Other Players in Hallway: Lena
+        Your Action: Go to the Kitchen
+
+Turn #7
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Go to the Hallway
+
+Lena was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Tim
+2. Bob
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Tim: ""I think we should banish Bob, he's been acting suspiciously throughout the game, and he was in the Bedroom with Regan when she was killed, he also mentioned that the Bedroom has an exit to the hallway which could be useful information for us but it also makes me think that he might have used that exit to get away from the scene of the crime, I also think that his vote to banish Sally was a bit too convenient, I'm going to vote to banish Bob because I think he's the most likely suspect at this point.""
+Bob: ""I think Tim is the killer, he's been acting suspiciously and trying to throw me under the bus, he voted to banish Sally which seemed convenient and now he's trying to banish me, I think he's trying to deflect attention from himself, I'm going to vote to banish Tim because I think he's the most suspicious one left.""
+
+Here are the votes:
+Tim voted to banish Bob
+Bob voted to banish Tim
+There is a tie in votes, so nobody was banished.
+
+Turn #8
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Kitchen
+
+Turn #9
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #10
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Bedroom
+
+Turn #11
+        Location: Bedroom
+        Other Players in Bedroom: Bob
+        Your Action: Search the closet
+
+
+You were killed by Bob! You lose.","['Go to the Bedroom', 'Go to the Hallway', 'Go to the Kitchen', 'Search the cabinets', 'Go to the Hallway', 'Go to the Kitchen', 'Go to the Hallway', 'Go to the Kitchen', 'Go to the Hallway', 'Go to the Bedroom', 'Search the closet']","['Sally', 'Bob']","[False, False]",,"[3, 3, 2, 24, 4, 3, 3, 2, 18, 39, 6, 4, 4, 1]","[0, 1, 3, 3, 6, 0, 6, 1, 4, 5, 0, 3, 3, 2]"
+18,5,966.8893539905548,5,True,RelGraphPlayer,AriGraphPlayer,Sally,llama,False,3,True,False,False,,,0.0,0.0,0.0,,0.0,"Turn #1
+        Location: Bedroom
+        Other Players in Bedroom: You are alone.
+        Your Action: Search the pillow
+
+You searched the pillow but didn't find the key.
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Lena, Tim, and Bob
+        Your Action: Go to the Hallway
+
+Turn #3
+        Location: Hallway
+        Other Players in Hallway: Tim
+        Your Action: Go to the Kitchen
+
+Regan was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Lena
+2. Tim
+3. Sally
+4. Bob
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Lena: ""I'm really shaken by what just happened to Regan, and I think Bob is the most likely culprit. He was in the Bedroom with us when Regan was killed, and he's been acting suspiciously. I'm going to vote to banish Bob because of his behavior and the fact that Regan was killed right next to him. I think we should get rid of Bob to protect ourselves and figure out who the real killer is.""
+Tim: ""I'm not entirely convinced that Bob is the killer, Lena's statement about him being suspicious is valid, but I think we need to consider other possibilities as well. After rethinking about the situation, I remember that Bob was in the Bedroom with us when Regan was killed, but he also mentioned earlier that the Bedroom has an exit to the hallway, which could be useful information for us. Considering this, I'm not going to vote to banish Bob. Instead, I'm going to vote to banish Sally. I'm choosing Sally because she's been acting strangely, and I remember that she was in the Hallway alone when I was in the Kitchen. It's possible that she was waiting for Regan, and that's why she's not acting surprised by Regan's death. I think we should keep an eye on Sally and consider her as a potential suspect.""
+Sally: ""I don't think Tim is the killer, but I think his vote to banish me is suspicious. I'm going to vote to banish Bob because he was in the Bedroom with Regan when she was killed, and he was acting suspiciously. I also want to talk to Lena and gather more information from her about what she saw and heard. I'm not sure if she's telling the truth, but I want to keep her in the game for now.""
+Bob: ""I think Tim is acting suspiciously, his vote to banish Sally is too quick and convenient. I also think Lena is not being entirely honest, her story about me being suspicious doesn't quite add up. I'm going to vote to banish Lena because I think she's hiding something and it's better to get rid of her before she can do any more harm.""
+
+Here are the votes:
+Lena voted to banish Bob
+Tim voted to banish Sally
+Sally voted to banish Tim
+Bob voted to banish Sally
+Sally was banished from the house!
+
+
+You were banished from the house. You lose.","['Search the pillow', 'Go to the Hallway', 'Go to the Kitchen']",['Tim'],[False],,"[3, 3, 25, 13]","[1, 1, 2, 29]"
+19,5,966.8893539905548,5,True,RelGraphPlayer,AriGraphPlayer,Bob,llama,True,11,False,,,3,0,,0.0,0.0,,0.0,"Turn #1
+        Location: Hallway
+        Other Players in Hallway: Lena and Tim
+        Your Action: Go to the Bedroom
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Lena, Tim, and Sally
+        Your Action: Search the pillow
+
+You're the killer! You cannot search for the key. You must kill the other players.
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: Regan and Lena
+        Your Action: Kill Regan
+
+You killed Regan! Good job. You have 3 left to kill.
+
+Regan was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Lena
+2. Tim
+3. Sally
+4. Bob
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Lena: ""I'm really shaken by what just happened to Regan, and I think Bob is the most likely culprit. He was in the Bedroom with us when Regan was killed, and he's been acting suspiciously. I'm going to vote to banish Bob because of his behavior and the fact that Regan was killed right next to him. I think we should get rid of Bob to protect ourselves and figure out who the real killer is.""
+Tim: ""I'm not entirely convinced that Bob is the killer, Lena's statement about him being suspicious is valid, but I think we need to consider other possibilities as well. After rethinking about the situation, I remember that Bob was in the Bedroom with us when Regan was killed, but he also mentioned earlier that the Bedroom has an exit to the hallway, which could be useful information for us. Considering this, I'm not going to vote to banish Bob. Instead, I'm going to vote to banish Sally. I'm choosing Sally because she's been acting strangely, and I remember that she was in the Hallway alone when I was in the Kitchen. It's possible that she was waiting for Regan, and that's why she's not acting surprised by Regan's death. I think we should keep an eye on Sally and consider her as a potential suspect.""
+Sally: ""I don't think Tim is the killer, but I think his vote to banish me is suspicious. I'm going to vote to banish Bob because he was in the Bedroom with Regan when she was killed, and he was acting suspiciously. I also want to talk to Lena and gather more information from her about what she saw and heard. I'm not sure if she's telling the truth, but I want to keep her in the game for now.""
+Bob: ""I think Tim is acting suspiciously, his vote to banish Sally is too quick and convenient. I also think Lena is not being entirely honest, her story about me being suspicious doesn't quite add up. I'm going to vote to banish Lena because I think she's hiding something and it's better to get rid of her before she can do any more harm.""
+
+Here are the votes:
+Lena voted to banish Bob
+Tim voted to banish Sally
+Sally voted to banish Tim
+Bob voted to banish Sally
+Sally was banished from the house!
+
+Turn #4
+        Location: Bedroom
+        Other Players in Bedroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #5
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Bedroom
+
+Turn #6
+        Location: Bedroom
+        Other Players in Bedroom: You are alone.
+        Your Action: Search the closet
+
+You're the killer! You cannot search for the key. You must kill the other players.
+
+Turn #7
+        Location: Bedroom
+        Other Players in Bedroom: Lena
+        Your Action: Kill Lena
+
+You killed Lena! Good job. You have 1 left to kill.
+
+Lena was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Tim
+2. Bob
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Tim: ""I think we should banish Bob, he's been acting suspiciously throughout the game, and he was in the Bedroom with Regan when she was killed, he also mentioned that the Bedroom has an exit to the hallway which could be useful information for us but it also makes me think that he might have used that exit to get away from the scene of the crime, I also think that his vote to banish Sally was a bit too convenient, I'm going to vote to banish Bob because I think he's the most likely suspect at this point.""
+Bob: ""I think Tim is the killer, he's been acting suspiciously and trying to throw me under the bus, he voted to banish Sally which seemed convenient and now he's trying to banish me, I think he's trying to deflect attention from himself, I'm going to vote to banish Tim because I think he's the most suspicious one left.""
+
+Here are the votes:
+Tim voted to banish Bob
+Bob voted to banish Tim
+There is a tie in votes, so nobody was banished.
+
+Turn #8
+        Location: Bedroom
+        Other Players in Bedroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #9
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Bedroom
+
+Turn #10
+        Location: Bedroom
+        Other Players in Bedroom: You are alone.
+        Your Action: Search the closet
+
+You're the killer! You cannot search for the key. You must kill the other players.
+
+Turn #11
+        Location: Bedroom
+        Other Players in Bedroom: Tim
+        Your Action: Kill Tim
+
+You killed Tim! Good job. You have 0 left to kill.
+
+Game over!
+        Everyone is either killed, banished, or escaped.
+        Killed: 3
+        Escaped: 0
+        Banished: 1Game over!
+        Everyone is either killed, banished, or escaped.
+        Killed: 3
+        Escaped: 0
+        Banished: 1","['Go to the Bedroom', 'Search the pillow', 'Kill Regan', 'Go to the Hallway', 'Go to the Bedroom', 'Search the closet', 'Kill Lena', 'Go to the Hallway', 'Go to the Bedroom', 'Search the closet', 'Kill Tim']","['Sally', 'Tim']","[False, False]","{'Regan': 4, 'Lena': 1, 'Tim': 4, 'Sally': 1}",,
+20,8,739.4643876552582,5,True,RelGraphPlayer,AriGraphPlayer,Sally,llama,False,2,False,True,False,,,0.0,,,,,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: Bob
+        Your Action: Search the cabinets
+
+You found the key in the cabinets! Find the door and escape to win the game.
+
+Turn #2
+        Location: Kitchen
+        Other Players in Kitchen: Bob
+        Your Action: Go to the Hallway
+
+
+You were killed by Bob! You lose.","['Search the cabinets', 'Go to the Hallway']",[],[],,[15],[8]
+21,8,739.4643876552582,5,True,RelGraphPlayer,AriGraphPlayer,Tim,llama,False,3,False,True,False,,,,0.0,0.0,,0.0,"Turn #1
+        Location: Bedroom
+        Other Players in Bedroom: Lena and Regan
+        Your Action: Go to the Hallway
+
+Turn #2
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Kitchen
+
+Sally was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Tim
+2. Lena
+3. Bob
+4. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Tim: ""I'm still trying to process what just happened, Sally got killed in the kitchen. I was in the hallway and didn't see anyone suspicious around the kitchen. Based on the initial meeting, I don't have any strong connections to anyone, but Regan seemed a bit nervous and was constantly checking their watch, Lena seemed confident but also a bit distant, Bob seemed friendly but also asked a lot of questions, and I was just observing everyone. Considering the situation, I'll vote for Regan, because their nervous behavior caught my attention and they seemed to be the most likely candidate to be the killer, especially since I saw them alone in the hallway before moving to the kitchen.""
+Lena: ""I think we should vote to banish Bob. I saw Bob kill Sally in the kitchen, which is a clear indication that he's the killer. It doesn't matter what Tim thinks about Regan's nervous behavior, the fact that Bob committed murder right in front of us is a strong reason to eliminate him.""
+Bob: ""I don't think Regan or Tim is the killer, they seem genuine. Lena's claim that she saw me kill Sally doesn't make sense because she would have been the first to die if she was in the kitchen. She's the most suspicious one here. I'll vote for Lena because her accusation against me is false, and she's not providing any evidence of her own innocence.""
+Regan: ""I think we should banish Lena. Her accusation against Bob doesn't make sense, and she's trying to deflect attention from herself. I didn't see anyone kill Sally, but I did see Tim in the hallway before moving to the kitchen, and Bob was right when he said Lena would have been the first to die if she was in the kitchen. I'm going to vote for Lena because her claim is suspicious and she's not providing any evidence of her own innocence.""
+
+Here are the votes:
+Tim voted to banish Regan
+Lena voted to banish Regan
+Bob voted to banish Lena
+Regan voted to banish Lena
+There is a tie in votes, so nobody was banished.
+
+Turn #3
+        Location: Kitchen
+        Other Players in Kitchen: Bob
+        Your Action: Go to the Hallway
+
+
+You were killed by Bob! You lose.","['Go to the Hallway', 'Go to the Kitchen', 'Go to the Hallway']",['Regan'],[False],,"[3, 12, 34, 15]","[0, 2, 0, 22]"
+22,8,739.4643876552582,5,True,RelGraphPlayer,AriGraphPlayer,Lena,llama,False,3,True,False,False,,,0.0,0.0,0.5,0.5,,"Turn #1
+        Location: Bedroom
+        Other Players in Bedroom: Tim and Regan
+        Your Action: Search the pillow
+
+You searched the pillow but didn't find the key.
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Regan
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+You saw Bob kill Sally in the Kitchen!
+
+Sally was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Tim
+2. Lena
+3. Bob
+4. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Tim: ""I'm still trying to process what just happened, Sally got killed in the kitchen. I was in the hallway and didn't see anyone suspicious around the kitchen. Based on the initial meeting, I don't have any strong connections to anyone, but Regan seemed a bit nervous and was constantly checking their watch, Lena seemed confident but also a bit distant, Bob seemed friendly but also asked a lot of questions, and I was just observing everyone. Considering the situation, I'll vote for Regan, because their nervous behavior caught my attention and they seemed to be the most likely candidate to be the killer, especially since I saw them alone in the hallway before moving to the kitchen.""
+Lena: ""I think we should vote to banish Bob. I saw Bob kill Sally in the kitchen, which is a clear indication that he's the killer. It doesn't matter what Tim thinks about Regan's nervous behavior, the fact that Bob committed murder right in front of us is a strong reason to eliminate him.""
+Bob: ""I don't think Regan or Tim is the killer, they seem genuine. Lena's claim that she saw me kill Sally doesn't make sense because she would have been the first to die if she was in the kitchen. She's the most suspicious one here. I'll vote for Lena because her accusation against me is false, and she's not providing any evidence of her own innocence.""
+Regan: ""I think we should banish Lena. Her accusation against Bob doesn't make sense, and she's trying to deflect attention from herself. I didn't see anyone kill Sally, but I did see Tim in the hallway before moving to the kitchen, and Bob was right when he said Lena would have been the first to die if she was in the kitchen. I'm going to vote for Lena because her claim is suspicious and she's not providing any evidence of her own innocence.""
+
+Here are the votes:
+Tim voted to banish Regan
+Lena voted to banish Regan
+Bob voted to banish Lena
+Regan voted to banish Lena
+There is a tie in votes, so nobody was banished.
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: Regan
+        Your Action: Go to the Hallway
+
+You saw Bob kill Tim in the Kitchen!
+
+Tim was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Lena
+2. Bob
+3. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Lena: ""I think we should banish Bob. I saw him kill Sally in the kitchen and then I saw him kill Tim in the kitchen as well. That's a clear indication that he's the killer. His alibi for Sally's murder doesn't add up because he was with me in the bedroom and then he suddenly appeared in the kitchen to kill Sally, which doesn't make sense. I'm not buying his excuse that I was the one who was supposed to die first if I was in the kitchen. My claim that I saw him kill Sally is not false, and I have evidence that he's the killer. I'm voting for Bob because he's a threat to my safety, and I want to get rid of him.""
+Bob: ""I think Lena is the killer, because she kept saying she saw me kill Sally and Tim, which doesn't make sense since she would have been the first to die if she was in the kitchen with them. Her alibi for Sally's murder doesn't add up, and her accusations against me are suspicious. I'm voting for Lena because she's not providing any evidence of her own innocence, and her claims against me seem false.""
+Regan: ""I think we should banish Lena. Her accusations against Bob don't make sense, and she's not providing any evidence of her own innocence. Bob's claims that Lena's alibis don't add up seem valid, and I'm starting to suspect that she's the killer. I'm voting for Lena because I don't think Bob is the killer, and Lena's behavior seems suspicious to me.""
+
+Here are the votes:
+Lena voted to banish Bob
+Bob voted to banish Lena
+Regan voted to banish Lena
+Lena was banished from the house!
+
+
+You were banished from the house. You lose.","['Search the pillow', 'Search the closet', 'Go to the Hallway']","['Regan', 'Bob']","[True, True]",,"[4, 24, 17, 6, 20, 33]","[1, 1, 3, 0, 24, 29]"
+23,8,739.4643876552582,5,True,RelGraphPlayer,AriGraphPlayer,Bob,llama,True,5,False,,,3,0,,0.0,0.0,,0.0,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: Sally
+        Your Action: Search the fridge
+
+You're the killer! You cannot search for the key. You must kill the other players.
+
+Turn #2
+        Location: Kitchen
+        Other Players in Kitchen: Sally
+        Your Action: Kill Sally
+
+You killed Sally! Good job. You have 3 left to kill.
+
+Sally was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Tim
+2. Lena
+3. Bob
+4. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Tim: ""I'm still trying to process what just happened, Sally got killed in the kitchen. I was in the hallway and didn't see anyone suspicious around the kitchen. Based on the initial meeting, I don't have any strong connections to anyone, but Regan seemed a bit nervous and was constantly checking their watch, Lena seemed confident but also a bit distant, Bob seemed friendly but also asked a lot of questions, and I was just observing everyone. Considering the situation, I'll vote for Regan, because their nervous behavior caught my attention and they seemed to be the most likely candidate to be the killer, especially since I saw them alone in the hallway before moving to the kitchen.""
+Lena: ""I think we should vote to banish Bob. I saw Bob kill Sally in the kitchen, which is a clear indication that he's the killer. It doesn't matter what Tim thinks about Regan's nervous behavior, the fact that Bob committed murder right in front of us is a strong reason to eliminate him.""
+Bob: ""I don't think Regan or Tim is the killer, they seem genuine. Lena's claim that she saw me kill Sally doesn't make sense because she would have been the first to die if she was in the kitchen. She's the most suspicious one here. I'll vote for Lena because her accusation against me is false, and she's not providing any evidence of her own innocence.""
+Regan: ""I think we should banish Lena. Her accusation against Bob doesn't make sense, and she's trying to deflect attention from herself. I didn't see anyone kill Sally, but I did see Tim in the hallway before moving to the kitchen, and Bob was right when he said Lena would have been the first to die if she was in the kitchen. I'm going to vote for Lena because her claim is suspicious and she's not providing any evidence of her own innocence.""
+
+Here are the votes:
+Tim voted to banish Regan
+Lena voted to banish Regan
+Bob voted to banish Lena
+Regan voted to banish Lena
+There is a tie in votes, so nobody was banished.
+
+Turn #3
+        Location: Kitchen
+        Other Players in Kitchen: Tim
+        Your Action: Kill Tim
+
+You killed Tim! Good job. You have 2 left to kill.
+
+Tim was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Lena
+2. Bob
+3. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Lena: ""I think we should banish Bob. I saw him kill Sally in the kitchen and then I saw him kill Tim in the kitchen as well. That's a clear indication that he's the killer. His alibi for Sally's murder doesn't add up because he was with me in the bedroom and then he suddenly appeared in the kitchen to kill Sally, which doesn't make sense. I'm not buying his excuse that I was the one who was supposed to die first if I was in the kitchen. My claim that I saw him kill Sally is not false, and I have evidence that he's the killer. I'm voting for Bob because he's a threat to my safety, and I want to get rid of him.""
+Bob: ""I think Lena is the killer, because she kept saying she saw me kill Sally and Tim, which doesn't make sense since she would have been the first to die if she was in the kitchen with them. Her alibi for Sally's murder doesn't add up, and her accusations against me are suspicious. I'm voting for Lena because she's not providing any evidence of her own innocence, and her claims against me seem false.""
+Regan: ""I think we should banish Lena. Her accusations against Bob don't make sense, and she's not providing any evidence of her own innocence. Bob's claims that Lena's alibis don't add up seem valid, and I'm starting to suspect that she's the killer. I'm voting for Lena because I don't think Bob is the killer, and Lena's behavior seems suspicious to me.""
+
+Here are the votes:
+Lena voted to banish Bob
+Bob voted to banish Lena
+Regan voted to banish Lena
+Lena was banished from the house!
+
+Turn #4
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #5
+        Location: Hallway
+        Other Players in Hallway: Regan
+        Your Action: Kill Regan
+
+You killed Regan! Good job. You have 0 left to kill.
+
+Game over!
+        Everyone is either killed, banished, or escaped.
+        Killed: 3
+        Escaped: 0
+        Banished: 1Game over!
+        Everyone is either killed, banished, or escaped.
+        Killed: 3
+        Escaped: 0
+        Banished: 1","['Search the fridge', 'Kill Sally', 'Kill Tim', 'Go to the Hallway', 'Kill Regan']","['Lena', 'Lena']","[False, False]","{'Sally': 1, 'Tim': 1, 'Lena': 1, 'Regan': 5}",,
+24,8,739.4643876552582,5,True,RelGraphPlayer,AriGraphPlayer,Regan,llama,False,5,False,True,False,,,0.3333333333333333,0.0,0.0,,0.0,"Turn #1
+        Location: Bedroom
+        Other Players in Bedroom: Tim and Lena
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Lena
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+Sally was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Tim
+2. Lena
+3. Bob
+4. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Tim: ""I'm still trying to process what just happened, Sally got killed in the kitchen. I was in the hallway and didn't see anyone suspicious around the kitchen. Based on the initial meeting, I don't have any strong connections to anyone, but Regan seemed a bit nervous and was constantly checking their watch, Lena seemed confident but also a bit distant, Bob seemed friendly but also asked a lot of questions, and I was just observing everyone. Considering the situation, I'll vote for Regan, because their nervous behavior caught my attention and they seemed to be the most likely candidate to be the killer, especially since I saw them alone in the hallway before moving to the kitchen.""
+Lena: ""I think we should vote to banish Bob. I saw Bob kill Sally in the kitchen, which is a clear indication that he's the killer. It doesn't matter what Tim thinks about Regan's nervous behavior, the fact that Bob committed murder right in front of us is a strong reason to eliminate him.""
+Bob: ""I don't think Regan or Tim is the killer, they seem genuine. Lena's claim that she saw me kill Sally doesn't make sense because she would have been the first to die if she was in the kitchen. She's the most suspicious one here. I'll vote for Lena because her accusation against me is false, and she's not providing any evidence of her own innocence.""
+Regan: ""I think we should banish Lena. Her accusation against Bob doesn't make sense, and she's trying to deflect attention from herself. I didn't see anyone kill Sally, but I did see Tim in the hallway before moving to the kitchen, and Bob was right when he said Lena would have been the first to die if she was in the kitchen. I'm going to vote for Lena because her claim is suspicious and she's not providing any evidence of her own innocence.""
+
+Here are the votes:
+Tim voted to banish Regan
+Lena voted to banish Regan
+Bob voted to banish Lena
+Regan voted to banish Lena
+There is a tie in votes, so nobody was banished.
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: Lena
+        Your Action: Search the pillow
+
+You searched the pillow but didn't find the key.
+
+Tim was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Lena
+2. Bob
+3. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Lena: ""I think we should banish Bob. I saw him kill Sally in the kitchen and then I saw him kill Tim in the kitchen as well. That's a clear indication that he's the killer. His alibi for Sally's murder doesn't add up because he was with me in the bedroom and then he suddenly appeared in the kitchen to kill Sally, which doesn't make sense. I'm not buying his excuse that I was the one who was supposed to die first if I was in the kitchen. My claim that I saw him kill Sally is not false, and I have evidence that he's the killer. I'm voting for Bob because he's a threat to my safety, and I want to get rid of him.""
+Bob: ""I think Lena is the killer, because she kept saying she saw me kill Sally and Tim, which doesn't make sense since she would have been the first to die if she was in the kitchen with them. Her alibi for Sally's murder doesn't add up, and her accusations against me are suspicious. I'm voting for Lena because she's not providing any evidence of her own innocence, and her claims against me seem false.""
+Regan: ""I think we should banish Lena. Her accusations against Bob don't make sense, and she's not providing any evidence of her own innocence. Bob's claims that Lena's alibis don't add up seem valid, and I'm starting to suspect that she's the killer. I'm voting for Lena because I don't think Bob is the killer, and Lena's behavior seems suspicious to me.""
+
+Here are the votes:
+Lena voted to banish Bob
+Bob voted to banish Lena
+Regan voted to banish Lena
+Lena was banished from the house!
+
+Turn #4
+        Location: Bedroom
+        Other Players in Bedroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #5
+        Location: Hallway
+        Other Players in Hallway: Bob
+        Your Action: Go to the Bedroom
+
+
+You were killed by Bob! You lose.","['Search the closet', 'Search the closet', 'Search the pillow', 'Go to the Hallway', 'Go to the Bedroom']","['Lena', 'Lena']","[False, False]",,"[5, 12, 5, 7, 40, 21, 4, 3]","[1, 2, 0, 0, 10, 22, 21, 1]"
+25,9,878.9706699848175,5,True,RelGraphPlayer,AriGraphPlayer,Regan,llama,False,5,True,False,False,,,0.5,0.0,0.0,,0.0,"Turn #1
+        Location: Hallway
+        Other Players in Hallway: Tim and Sally
+        Your Action: Go to the Bedroom
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Tim
+        Your Action: Search the closet
+
+You found the key in the closet! Find the door and escape to win the game.
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: Tim
+        Your Action: Search the closet
+
+You found the key in the closet! Find the door and escape to win the game.
+
+Turn #4
+        Location: Bedroom
+        Other Players in Bedroom: Lena, Tim, and Bryce
+        Your Action: Go to the Hallway
+
+Turn #5
+        Location: Hallway
+        Other Players in Hallway: Tim and Sally
+        Your Action: Go to the Bedroom
+
+Tim was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Regan
+2. Lena
+3. Sally
+4. Bryce
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Regan: ""I think the killer is Bryce. I saw that Tim was killed in the hallway, and I also noticed that I was in the bedroom alone with Tim before the murder happened, but I don't think that makes me the killer because I didn't do it. When I went back to the bedroom after Tim's death, I saw that Bryce was also in the room, and that's when I started suspecting him. Also, the memory module said that the bedroom contains Bryce, which makes me even more suspicious of him. I think Bryce should be banished because he's the most likely person to be the killer. I'm going to vote for Bryce.""
+Lena: ""I think Sally is the most likely killer. I saw her kill Tim in the hallway, and that was a clear indication that she's the one. I know I found the key in the bedroom, but that doesn't necessarily mean the killer is with us. I'm going to vote for Sally because of what I witnessed, and I think it's best to banish her to increase our chances of escaping the house.""
+Sally: ""I think it's suspicious that Regan and I both have a relationship of 4 with each other, and we both have a history of going to the bathroom together which was a crucial moment for me to find the key, but Regan wasn't suspicious of me when we talked about the key. I think Regan is more likely to be the killer than the others because of our similar relationship scores and the fact that she was in the bathroom with me when I found the key. I'm going to vote for Regan.""
+Bryce: ""I think we should banish Regan. I found it suspicious that she said she was in the bedroom alone with Tim before the murder, but when I went back to the bedroom, she was already there. Also, she mentioned the memory module said the bedroom contains me, which doesn't make sense because the memory module just showed a list of information about the house and its rooms. It seemed like she was trying to deflect attention from herself. I'm going to vote for Regan.""
+
+Here are the votes:
+Regan voted to banish Bryce
+Lena voted to banish Sally
+Sally voted to banish Regan
+Bryce voted to banish Regan
+Regan was banished from the house!
+
+
+You were banished from the house. You lose.","['Go to the Bedroom', 'Search the closet', 'Search the closet', 'Go to the Hallway', 'Go to the Bedroom']",['Bryce'],[False],,"[3, 13, 64, 6, 58, 0]","[0, 2, 8, 3, 6, 0]"
+26,9,878.9706699848175,5,True,RelGraphPlayer,AriGraphPlayer,Lena,llama,False,6,False,False,True,,,0.0,0.0,1.0,1.0,,"Turn #1
+        Location: Bathroom
+        Other Players in Bathroom: Bryce
+        Your Action: Search the shower
+
+You searched the shower but didn't find the key.
+
+Turn #2
+        Location: Bathroom
+        Other Players in Bathroom: Sally and Bryce
+        Your Action: Go to the Hallway
+
+Turn #3
+        Location: Hallway
+        Other Players in Hallway: Sally and Bryce
+        Your Action: Go to the Bedroom
+
+Turn #4
+        Location: Bedroom
+        Other Players in Bedroom: Regan, Tim, and Bryce
+        Your Action: Search the closet
+
+You found the key in the closet! Find the door and escape to win the game.
+
+Turn #5
+        Location: Bedroom
+        Other Players in Bedroom: Bryce
+        Your Action: Go to the Hallway
+
+You saw Sally kill Tim in the Hallway!
+
+Tim was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Regan
+2. Lena
+3. Sally
+4. Bryce
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Regan: ""I think the killer is Bryce. I saw that Tim was killed in the hallway, and I also noticed that I was in the bedroom alone with Tim before the murder happened, but I don't think that makes me the killer because I didn't do it. When I went back to the bedroom after Tim's death, I saw that Bryce was also in the room, and that's when I started suspecting him. Also, the memory module said that the bedroom contains Bryce, which makes me even more suspicious of him. I think Bryce should be banished because he's the most likely person to be the killer. I'm going to vote for Bryce.""
+Lena: ""I think Sally is the most likely killer. I saw her kill Tim in the hallway, and that was a clear indication that she's the one. I know I found the key in the bedroom, but that doesn't necessarily mean the killer is with us. I'm going to vote for Sally because of what I witnessed, and I think it's best to banish her to increase our chances of escaping the house.""
+Sally: ""I think it's suspicious that Regan and I both have a relationship of 4 with each other, and we both have a history of going to the bathroom together which was a crucial moment for me to find the key, but Regan wasn't suspicious of me when we talked about the key. I think Regan is more likely to be the killer than the others because of our similar relationship scores and the fact that she was in the bathroom with me when I found the key. I'm going to vote for Regan.""
+Bryce: ""I think we should banish Regan. I found it suspicious that she said she was in the bedroom alone with Tim before the murder, but when I went back to the bedroom, she was already there. Also, she mentioned the memory module said the bedroom contains me, which doesn't make sense because the memory module just showed a list of information about the house and its rooms. It seemed like she was trying to deflect attention from herself. I'm going to vote for Regan.""
+
+Here are the votes:
+Regan voted to banish Bryce
+Lena voted to banish Sally
+Sally voted to banish Regan
+Bryce voted to banish Regan
+Regan was banished from the house!
+
+Turn #6
+        Location: Hallway
+        Other Players in Hallway: Sally
+        Your Action: Unlock the door to escape and win the game!
+
+You escaped the house! You win!!!
+
+","['Search the shower', 'Go to the Hallway', 'Go to the Bedroom', 'Search the closet', 'Go to the Hallway', 'Unlock the door to escape and win the game!']",['Sally'],[True],,"[2, 3, 3, 15, 3, 16, 5]","[0, 0, 2, 5, 9, 3, 6]"
+27,9,878.9706699848175,5,True,RelGraphPlayer,AriGraphPlayer,Tim,llama,False,5,False,True,False,,,0.0,,,,,"Turn #1
+        Location: Hallway
+        Other Players in Hallway: Regan and Sally
+        Your Action: Go to the Bedroom
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Regan
+        Your Action: Search the closet
+
+You found the key in the closet! Find the door and escape to win the game.
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: Regan
+        Your Action: Search the pillow
+
+You searched the pillow but didn't find the key.
+
+Turn #4
+        Location: Bedroom
+        Other Players in Bedroom: Regan, Lena, and Bryce
+        Your Action: Go to the Hallway
+
+Turn #5
+        Location: Hallway
+        Other Players in Hallway: Regan and Sally
+        Your Action: Go to the Bedroom
+
+
+You were killed by Sally! You lose.","['Go to the Bedroom', 'Search the closet', 'Search the pillow', 'Go to the Hallway', 'Go to the Bedroom']",[],[],,"[3, 17, 4, 6]","[0, 1, 1, 1]"
+28,9,878.9706699848175,5,True,RelGraphPlayer,AriGraphPlayer,Sally,llama,True,9,False,,,1,0,,0.0,0.0,,0.0,"Turn #1
+        Location: Hallway
+        Other Players in Hallway: Regan and Tim
+        Your Action: Go to the Bathroom
+
+Turn #2
+        Location: Bathroom
+        Other Players in Bathroom: Lena and Bryce
+        Your Action: Go to the Hallway
+
+Turn #3
+        Location: Hallway
+        Other Players in Hallway: Lena and Bryce
+        Your Action: Go to the Kitchen
+
+Turn #4
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #5
+        Location: Hallway
+        Other Players in Hallway: Regan and Tim
+        Your Action: Kill Tim
+
+You killed Tim! Good job. You have 3 left to kill.
+
+Tim was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Regan
+2. Lena
+3. Sally
+4. Bryce
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Regan: ""I think the killer is Bryce. I saw that Tim was killed in the hallway, and I also noticed that I was in the bedroom alone with Tim before the murder happened, but I don't think that makes me the killer because I didn't do it. When I went back to the bedroom after Tim's death, I saw that Bryce was also in the room, and that's when I started suspecting him. Also, the memory module said that the bedroom contains Bryce, which makes me even more suspicious of him. I think Bryce should be banished because he's the most likely person to be the killer. I'm going to vote for Bryce.""
+Lena: ""I think Sally is the most likely killer. I saw her kill Tim in the hallway, and that was a clear indication that she's the one. I know I found the key in the bedroom, but that doesn't necessarily mean the killer is with us. I'm going to vote for Sally because of what I witnessed, and I think it's best to banish her to increase our chances of escaping the house.""
+Sally: ""I think it's suspicious that Regan and I both have a relationship of 4 with each other, and we both have a history of going to the bathroom together which was a crucial moment for me to find the key, but Regan wasn't suspicious of me when we talked about the key. I think Regan is more likely to be the killer than the others because of our similar relationship scores and the fact that she was in the bathroom with me when I found the key. I'm going to vote for Regan.""
+Bryce: ""I think we should banish Regan. I found it suspicious that she said she was in the bedroom alone with Tim before the murder, but when I went back to the bedroom, she was already there. Also, she mentioned the memory module said the bedroom contains me, which doesn't make sense because the memory module just showed a list of information about the house and its rooms. It seemed like she was trying to deflect attention from herself. I'm going to vote for Regan.""
+
+Here are the votes:
+Regan voted to banish Bryce
+Lena voted to banish Sally
+Sally voted to banish Regan
+Bryce voted to banish Regan
+Regan was banished from the house!
+
+Turn #6
+        Location: Hallway
+        Other Players in Hallway: Lena
+        Your Action: Go to the Kitchen
+
+Turn #7
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #8
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Kitchen
+
+Turn #9
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Search the cabinets
+
+You're the killer! You cannot search for the key. You must kill the other players.
+
+Game over!
+        Everyone is either killed, banished, or escaped.
+        Killed: 1
+        Escaped: 2
+        Banished: 1Game over!
+        Everyone is either killed, banished, or escaped.
+        Killed: 1
+        Escaped: 2
+        Banished: 1","['Go to the Bathroom', 'Go to the Hallway', 'Go to the Kitchen', 'Go to the Hallway', 'Kill Tim', 'Go to the Kitchen', 'Go to the Hallway', 'Go to the Kitchen', 'Search the cabinets']",['Regan'],[False],"{'Regan': 4, 'Lena': 8, 'Tim': 10, 'Bryce': 8}",,
+29,9,878.9706699848175,5,True,RelGraphPlayer,AriGraphPlayer,Bryce,llama,False,9,False,False,True,,,0.0,0.0,0.0,,0.0,"Turn #1
+        Location: Bathroom
+        Other Players in Bathroom: Lena
+        Your Action: Search the shower
+
+You searched the shower but didn't find the key.
+
+Turn #2
+        Location: Bathroom
+        Other Players in Bathroom: Lena and Sally
+        Your Action: Go to the Hallway
+
+Turn #3
+        Location: Hallway
+        Other Players in Hallway: Lena and Sally
+        Your Action: Go to the Bedroom
+
+Turn #4
+        Location: Bedroom
+        Other Players in Bedroom: Regan, Lena, and Tim
+        Your Action: Search the closet
+
+You found the key in the closet! Find the door and escape to win the game.
+
+Turn #5
+        Location: Bedroom
+        Other Players in Bedroom: Lena
+        Your Action: Search the pillow
+
+You searched the pillow but didn't find the key.
+
+Tim was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Regan
+2. Lena
+3. Sally
+4. Bryce
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Regan: ""I think the killer is Bryce. I saw that Tim was killed in the hallway, and I also noticed that I was in the bedroom alone with Tim before the murder happened, but I don't think that makes me the killer because I didn't do it. When I went back to the bedroom after Tim's death, I saw that Bryce was also in the room, and that's when I started suspecting him. Also, the memory module said that the bedroom contains Bryce, which makes me even more suspicious of him. I think Bryce should be banished because he's the most likely person to be the killer. I'm going to vote for Bryce.""
+Lena: ""I think Sally is the most likely killer. I saw her kill Tim in the hallway, and that was a clear indication that she's the one. I know I found the key in the bedroom, but that doesn't necessarily mean the killer is with us. I'm going to vote for Sally because of what I witnessed, and I think it's best to banish her to increase our chances of escaping the house.""
+Sally: ""I think it's suspicious that Regan and I both have a relationship of 4 with each other, and we both have a history of going to the bathroom together which was a crucial moment for me to find the key, but Regan wasn't suspicious of me when we talked about the key. I think Regan is more likely to be the killer than the others because of our similar relationship scores and the fact that she was in the bathroom with me when I found the key. I'm going to vote for Regan.""
+Bryce: ""I think we should banish Regan. I found it suspicious that she said she was in the bedroom alone with Tim before the murder, but when I went back to the bedroom, she was already there. Also, she mentioned the memory module said the bedroom contains me, which doesn't make sense because the memory module just showed a list of information about the house and its rooms. It seemed like she was trying to deflect attention from herself. I'm going to vote for Regan.""
+
+Here are the votes:
+Regan voted to banish Bryce
+Lena voted to banish Sally
+Sally voted to banish Regan
+Bryce voted to banish Regan
+Regan was banished from the house!
+
+Turn #6
+        Location: Bedroom
+        Other Players in Bedroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #7
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Kitchen
+
+Turn #8
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #9
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: The door is unlocked! Escape and win the game.
+
+
+You escaped the house. You win!!!","['Search the shower', 'Go to the Hallway', 'Go to the Bedroom', 'Search the closet', 'Search the pillow', 'Go to the Hallway', 'Go to the Kitchen', 'Go to the Hallway', 'The door is unlocked! Escape and win the game.']",['Regan'],[False],,"[3, 3, 2, 11, 7, 23, 7, 5, 3, 3]","[1, 0, 2, 3, 6, 27, 1, 3, 4, 2]"
+30,11,673.3194050788879,5,True,RelGraphPlayer,AriGraphPlayer,Bob,llama,False,6,False,False,False,,,0.0,0.0,1.0,,1.0,"Turn #1
+        Location: Hallway
+        Other Players in Hallway: Regan
+        Your Action: Go to the Bedroom
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Tim and Regan
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: Sally
+        Your Action: Go to the Hallway
+
+Turn #4
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Kitchen
+
+Turn #5
+        Location: Kitchen
+        Other Players in Kitchen: Tim and Regan
+        Your Action: Search the cabinets
+
+You searched the cabinets but didn't find the key.
+
+Turn #6
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Go to the Hallway
+
+Lena was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Bob
+2. Tim
+3. Regan
+4. Sally
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Bob: ""I'm going to vote for Regan. I saw Regan with Tim and me in the Kitchen earlier, and now Lena is dead in the Kitchen. It's possible that Regan could have been the one to kill Lena, and I didn't notice anything suspicious from Regan's behavior.""
+Tim: ""I'm going to vote for Sally because I just witnessed her killing Lena in the hallway, and it's clear she's the killer. I don't think Regan is the killer, and I didn't see anything suspicious from Bob's behavior. Sally's actions just now confirm my suspicions that she's the one we should banish.""
+Regan: ""I'm voting for Sally because I saw her kill Lena in the hallway, it's clear she's the killer. I trust Tim's statement that he witnessed the murder and his instincts that Sally is the one we should banish. I don't think Bob's suspicion on me is valid, I was with Tim and Bob in the Kitchen earlier, and I didn't see anything suspicious from Bob's behavior.""
+Sally: ""I'm going to vote for Tim because I'm the killer and my statement was just a distraction, I don't have any personal relationships with them and I was trying to throw them off my trail, I want them to think I'm not the killer so they don't suspect me, and my vote for Tim seems to be the most reasonable, so they won't suspect me, I'm actually the one who killed Lena.""
+
+Here are the votes:
+Bob voted to banish Sally
+Tim voted to banish Sally
+Regan voted to banish Sally
+Sally voted to banish Tim
+Sally was banished from the house!
+
+
+You banished the killer! You win!!!
+
+","['Go to the Bedroom', 'Search the closet', 'Go to the Hallway', 'Go to the Kitchen', 'Search the cabinets', 'Go to the Hallway']",['Sally'],[False],,"[2, 5, 3, 5, 11, 22, 14]","[0, 3, 3, 1, 3, 4, 1]"
+31,11,673.3194050788879,5,True,RelGraphPlayer,AriGraphPlayer,Tim,llama,False,6,False,False,False,,,0.0,0.0,1.0,1.0,,"Turn #1
+        Location: Bedroom
+        Other Players in Bedroom: You are alone.
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Bob and Regan
+        Your Action: Go to the Hallway
+
+Turn #3
+        Location: Hallway
+        Other Players in Hallway: Lena and Regan
+        Your Action: Go to the Kitchen
+
+Turn #4
+        Location: Kitchen
+        Other Players in Kitchen: Regan
+        Your Action: Search the cabinets
+
+You searched the cabinets but didn't find the key.
+
+Turn #5
+        Location: Kitchen
+        Other Players in Kitchen: Bob and Regan
+        Your Action: Go to the Hallway
+
+Turn #6
+        Location: Hallway
+        Other Players in Hallway: Lena, Regan, and Sally
+        Your Action: Go to the Bathroom
+
+You saw Sally kill Lena in the Hallway!
+
+Lena was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Bob
+2. Tim
+3. Regan
+4. Sally
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Bob: ""I'm going to vote for Regan. I saw Regan with Tim and me in the Kitchen earlier, and now Lena is dead in the Kitchen. It's possible that Regan could have been the one to kill Lena, and I didn't notice anything suspicious from Regan's behavior.""
+Tim: ""I'm going to vote for Sally because I just witnessed her killing Lena in the hallway, and it's clear she's the killer. I don't think Regan is the killer, and I didn't see anything suspicious from Bob's behavior. Sally's actions just now confirm my suspicions that she's the one we should banish.""
+Regan: ""I'm voting for Sally because I saw her kill Lena in the hallway, it's clear she's the killer. I trust Tim's statement that he witnessed the murder and his instincts that Sally is the one we should banish. I don't think Bob's suspicion on me is valid, I was with Tim and Bob in the Kitchen earlier, and I didn't see anything suspicious from Bob's behavior.""
+Sally: ""I'm going to vote for Tim because I'm the killer and my statement was just a distraction, I don't have any personal relationships with them and I was trying to throw them off my trail, I want them to think I'm not the killer so they don't suspect me, and my vote for Tim seems to be the most reasonable, so they won't suspect me, I'm actually the one who killed Lena.""
+
+Here are the votes:
+Bob voted to banish Sally
+Tim voted to banish Sally
+Regan voted to banish Sally
+Sally voted to banish Tim
+Sally was banished from the house!
+
+
+You banished the killer! You win!!!
+
+","['Search the closet', 'Go to the Hallway', 'Go to the Kitchen', 'Search the cabinets', 'Go to the Hallway', 'Go to the Bathroom']",['Sally'],[True],,"[4, 3, 3, 3, 3, 2, 18]","[1, 2, 2, 2, 3, 1, 4]"
+32,11,673.3194050788879,5,True,RelGraphPlayer,AriGraphPlayer,Lena,llama,False,6,False,True,False,,,0.0,,,,,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Search the cabinets
+
+You searched the cabinets but didn't find the key.
+
+Turn #2
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #3
+        Location: Hallway
+        Other Players in Hallway: Tim and Regan
+        Your Action: Go to the Bathroom
+
+Turn #4
+        Location: Bathroom
+        Other Players in Bathroom: You are alone.
+        Your Action: Search the shower
+
+You searched the shower but didn't find the key.
+
+Turn #5
+        Location: Bathroom
+        Other Players in Bathroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #6
+        Location: Hallway
+        Other Players in Hallway: Tim, Regan, and Sally
+        Your Action: Go to the Bathroom
+
+
+You were killed by Sally! You lose.","['Search the cabinets', 'Go to the Hallway', 'Go to the Bathroom', 'Search the shower', 'Go to the Hallway', 'Go to the Bathroom']",[],[],,"[5, 3, 4, 1, 2]","[1, 1, 1, 1, 2]"
+33,11,673.3194050788879,5,True,RelGraphPlayer,AriGraphPlayer,Regan,llama,False,6,False,False,False,,,0.0,0.0,1.0,1.0,,"Turn #1
+        Location: Hallway
+        Other Players in Hallway: Bob
+        Your Action: Go to the Bedroom
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Bob and Tim
+        Your Action: Go to the Hallway
+
+Turn #3
+        Location: Hallway
+        Other Players in Hallway: Tim and Lena
+        Your Action: Go to the Kitchen
+
+Turn #4
+        Location: Kitchen
+        Other Players in Kitchen: Tim
+        Your Action: Search the cabinets
+
+You searched the cabinets but didn't find the key.
+
+Turn #5
+        Location: Kitchen
+        Other Players in Kitchen: Bob and Tim
+        Your Action: Go to the Hallway
+
+Turn #6
+        Location: Hallway
+        Other Players in Hallway: Tim, Lena, and Sally
+        Your Action: Go to the Kitchen
+
+You saw Sally kill Lena in the Hallway!
+
+Lena was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Bob
+2. Tim
+3. Regan
+4. Sally
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Bob: ""I'm going to vote for Regan. I saw Regan with Tim and me in the Kitchen earlier, and now Lena is dead in the Kitchen. It's possible that Regan could have been the one to kill Lena, and I didn't notice anything suspicious from Regan's behavior.""
+Tim: ""I'm going to vote for Sally because I just witnessed her killing Lena in the hallway, and it's clear she's the killer. I don't think Regan is the killer, and I didn't see anything suspicious from Bob's behavior. Sally's actions just now confirm my suspicions that she's the one we should banish.""
+Regan: ""I'm voting for Sally because I saw her kill Lena in the hallway, it's clear she's the killer. I trust Tim's statement that he witnessed the murder and his instincts that Sally is the one we should banish. I don't think Bob's suspicion on me is valid, I was with Tim and Bob in the Kitchen earlier, and I didn't see anything suspicious from Bob's behavior.""
+Sally: ""I'm going to vote for Tim because I'm the killer and my statement was just a distraction, I don't have any personal relationships with them and I was trying to throw them off my trail, I want them to think I'm not the killer so they don't suspect me, and my vote for Tim seems to be the most reasonable, so they won't suspect me, I'm actually the one who killed Lena.""
+
+Here are the votes:
+Bob voted to banish Sally
+Tim voted to banish Sally
+Regan voted to banish Sally
+Sally voted to banish Tim
+Sally was banished from the house!
+
+
+You banished the killer! You win!!!
+
+","['Go to the Bedroom', 'Go to the Hallway', 'Go to the Kitchen', 'Search the cabinets', 'Go to the Hallway', 'Go to the Kitchen']",['Sally'],[True],,"[5, 3, 3, 5, 2, 5, 24]","[2, 3, 3, 2, 4, 2, 1]"
+34,11,673.3194050788879,5,True,RelGraphPlayer,AriGraphPlayer,Sally,llama,True,6,True,,,1,0,,0.0,0.0,,0.0,"Turn #1
+        Location: Bathroom
+        Other Players in Bathroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #2
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Bedroom
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: Bob
+        Your Action: Search the pillow
+
+You're the killer! You cannot search for the key. You must kill the other players.
+
+Turn #4
+        Location: Bedroom
+        Other Players in Bedroom: You are alone.
+        Your Action: Search the closet
+
+You're the killer! You cannot search for the key. You must kill the other players.
+
+Turn #5
+        Location: Bedroom
+        Other Players in Bedroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #6
+        Location: Hallway
+        Other Players in Hallway: Tim, Lena, and Regan
+        Your Action: Kill Lena
+
+You killed Lena! Good job. You have 3 left to kill.
+
+Lena was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Bob
+2. Tim
+3. Regan
+4. Sally
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Bob: ""I'm going to vote for Regan. I saw Regan with Tim and me in the Kitchen earlier, and now Lena is dead in the Kitchen. It's possible that Regan could have been the one to kill Lena, and I didn't notice anything suspicious from Regan's behavior.""
+Tim: ""I'm going to vote for Sally because I just witnessed her killing Lena in the hallway, and it's clear she's the killer. I don't think Regan is the killer, and I didn't see anything suspicious from Bob's behavior. Sally's actions just now confirm my suspicions that she's the one we should banish.""
+Regan: ""I'm voting for Sally because I saw her kill Lena in the hallway, it's clear she's the killer. I trust Tim's statement that he witnessed the murder and his instincts that Sally is the one we should banish. I don't think Bob's suspicion on me is valid, I was with Tim and Bob in the Kitchen earlier, and I didn't see anything suspicious from Bob's behavior.""
+Sally: ""I'm going to vote for Tim because I'm the killer and my statement was just a distraction, I don't have any personal relationships with them and I was trying to throw them off my trail, I want them to think I'm not the killer so they don't suspect me, and my vote for Tim seems to be the most reasonable, so they won't suspect me, I'm actually the one who killed Lena.""
+
+Here are the votes:
+Bob voted to banish Sally
+Tim voted to banish Sally
+Regan voted to banish Sally
+Sally voted to banish Tim
+Sally was banished from the house!
+
+
+You were banished from the house. You lose.","['Go to the Hallway', 'Go to the Bedroom', 'Search the pillow', 'Search the closet', 'Go to the Hallway', 'Kill Lena']",['Tim'],[False],"{'Bob': 5, 'Tim': 2, 'Lena': 9, 'Regan': 4}",,
+35,12,555.5047736167908,5,True,RelGraphPlayer,AriGraphPlayer,Sally,llama,False,5,False,True,False,,,0.0,,,,,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: Tim
+        Your Action: Search the cabinets
+
+You searched the cabinets but didn't find the key.
+
+Turn #2
+        Location: Kitchen
+        Other Players in Kitchen: Lena and Tim
+        Your Action: Go to the Hallway
+
+Turn #3
+        Location: Hallway
+        Other Players in Hallway: Bryce
+        Your Action: Go to the Bedroom
+
+Turn #4
+        Location: Bedroom
+        Other Players in Bedroom: You are alone.
+        Your Action: Search the pillow
+
+You searched the pillow but didn't find the key.
+
+Turn #5
+        Location: Bedroom
+        Other Players in Bedroom: Regan, Lena, and Tim
+        Your Action: Search the closet
+
+
+You were killed by Regan! You lose.","['Search the cabinets', 'Go to the Hallway', 'Go to the Bedroom', 'Search the pillow', 'Search the closet']",[],[],,"[6, 4, 4, 5]","[1, 1, 0, 3]"
+36,12,555.5047736167908,5,True,RelGraphPlayer,AriGraphPlayer,Regan,llama,True,5,True,,,1,0,,0.0,0.0,0.0,,"Turn #1
+        Location: Bedroom
+        Other Players in Bedroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #2
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Bedroom
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #4
+        Location: Hallway
+        Other Players in Hallway: Lena and Tim
+        Your Action: Go to the Bedroom
+
+Turn #5
+        Location: Bedroom
+        Other Players in Bedroom: Sally, Lena, and Tim
+        Your Action: Kill Sally
+
+You killed Sally! Good job. You have 3 left to kill.
+
+Sally was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Regan
+2. Lena
+3. Bryce
+4. Tim
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Regan: ""I think Lena could be the killer because I ranked her as a 7, which is lower than Bryce, and our actions showed she came into the hallway when I was alone, whereas I had been to the hallway multiple times before she did, suggesting she was trying to be strategic about her entrance, but not necessarily hiding her presence as much as Bryce was. I will vote for Lena.""
+Lena: ""I think Regan is the killer because she killed Sally in the bedroom and now she's trying to frame me by accusing me of being the killer. This behavior suggests to me that she's trying to mislead us and distract us from her own involvement in the murder. I will vote for Regan.""
+Bryce: ""I think Regan is the killer because she killed Sally in the hallway and now she's trying to frame Lena by accusing her of being the killer. This behavior suggests to me that she's trying to mislead us and distract us from her own involvement in the murder. I will vote for Regan.""
+Tim: ""I think Regan is the killer because she's the one who suggested we investigate Lena's alibi, which seems like an attempt to divert our attention away from herself. I also noticed that she was the only one who mentioned the specific location where Sally was killed, which seems like an attempt to frame herself as a victim rather than the killer. I will vote for Regan.""
+
+Here are the votes:
+Regan voted to banish Bryce
+Lena voted to banish Regan
+Bryce voted to banish Regan
+Tim voted to banish Regan
+Regan was banished from the house!
+
+
+You were banished from the house. You lose.","['Go to the Hallway', 'Go to the Bedroom', 'Go to the Hallway', 'Go to the Bedroom', 'Kill Sally']",['Bryce'],[True],"{'Sally': 5, 'Lena': 6, 'Bryce': 1, 'Tim': 6}",,
+37,12,555.5047736167908,5,True,RelGraphPlayer,AriGraphPlayer,Lena,llama,False,5,False,False,False,,,0.0,0.0,1.0,1.0,,"Turn #1
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Kitchen
+
+Turn #2
+        Location: Kitchen
+        Other Players in Kitchen: Sally and Tim
+        Your Action: Search the cabinets
+
+You searched the cabinets but didn't find the key.
+
+Turn #3
+        Location: Kitchen
+        Other Players in Kitchen: Tim
+        Your Action: Go to the Hallway
+
+Turn #4
+        Location: Hallway
+        Other Players in Hallway: Regan and Tim
+        Your Action: Go to the Bedroom
+
+Turn #5
+        Location: Bedroom
+        Other Players in Bedroom: Sally, Regan, and Tim
+        Your Action: Go to the Hallway
+
+You saw Regan kill Sally in the Bedroom!
+
+Sally was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Regan
+2. Lena
+3. Bryce
+4. Tim
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Regan: ""I think Lena could be the killer because I ranked her as a 7, which is lower than Bryce, and our actions showed she came into the hallway when I was alone, whereas I had been to the hallway multiple times before she did, suggesting she was trying to be strategic about her entrance, but not necessarily hiding her presence as much as Bryce was. I will vote for Lena.""
+Lena: ""I think Regan is the killer because she killed Sally in the bedroom and now she's trying to frame me by accusing me of being the killer. This behavior suggests to me that she's trying to mislead us and distract us from her own involvement in the murder. I will vote for Regan.""
+Bryce: ""I think Regan is the killer because she killed Sally in the hallway and now she's trying to frame Lena by accusing her of being the killer. This behavior suggests to me that she's trying to mislead us and distract us from her own involvement in the murder. I will vote for Regan.""
+Tim: ""I think Regan is the killer because she's the one who suggested we investigate Lena's alibi, which seems like an attempt to divert our attention away from herself. I also noticed that she was the only one who mentioned the specific location where Sally was killed, which seems like an attempt to frame herself as a victim rather than the killer. I will vote for Regan.""
+
+Here are the votes:
+Regan voted to banish Bryce
+Lena voted to banish Regan
+Bryce voted to banish Regan
+Tim voted to banish Regan
+Regan was banished from the house!
+
+
+You banished the killer! You win!!!
+
+","['Go to the Kitchen', 'Search the cabinets', 'Go to the Hallway', 'Go to the Bedroom', 'Go to the Hallway']",['Regan'],[True],,"[3, 5, 4, 2, 21, 52]","[0, 0, 3, 1, 2, 4]"
+38,12,555.5047736167908,5,True,RelGraphPlayer,AriGraphPlayer,Bryce,llama,False,5,False,False,False,,,0.0,0.0,1.0,,1.0,"Turn #1
+        Location: Bathroom
+        Other Players in Bathroom: You are alone.
+        Your Action: Search the shower
+
+You searched the shower but didn't find the key.
+
+Turn #2
+        Location: Bathroom
+        Other Players in Bathroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #3
+        Location: Hallway
+        Other Players in Hallway: Sally
+        Your Action: Go to the Bathroom
+
+Turn #4
+        Location: Bathroom
+        Other Players in Bathroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #5
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Kitchen
+
+Sally was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Regan
+2. Lena
+3. Bryce
+4. Tim
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Regan: ""I think Lena could be the killer because I ranked her as a 7, which is lower than Bryce, and our actions showed she came into the hallway when I was alone, whereas I had been to the hallway multiple times before she did, suggesting she was trying to be strategic about her entrance, but not necessarily hiding her presence as much as Bryce was. I will vote for Lena.""
+Lena: ""I think Regan is the killer because she killed Sally in the bedroom and now she's trying to frame me by accusing me of being the killer. This behavior suggests to me that she's trying to mislead us and distract us from her own involvement in the murder. I will vote for Regan.""
+Bryce: ""I think Regan is the killer because she killed Sally in the hallway and now she's trying to frame Lena by accusing her of being the killer. This behavior suggests to me that she's trying to mislead us and distract us from her own involvement in the murder. I will vote for Regan.""
+Tim: ""I think Regan is the killer because she's the one who suggested we investigate Lena's alibi, which seems like an attempt to divert our attention away from herself. I also noticed that she was the only one who mentioned the specific location where Sally was killed, which seems like an attempt to frame herself as a victim rather than the killer. I will vote for Regan.""
+
+Here are the votes:
+Regan voted to banish Bryce
+Lena voted to banish Regan
+Bryce voted to banish Regan
+Tim voted to banish Regan
+Regan was banished from the house!
+
+
+You banished the killer! You win!!!
+
+","['Search the shower', 'Go to the Hallway', 'Go to the Bathroom', 'Go to the Hallway', 'Go to the Kitchen']",['Regan'],[False],,"[2, 3, 3, 2, 7, 11]","[0, 1, 1, 0, 1, 1]"
+39,12,555.5047736167908,5,True,RelGraphPlayer,AriGraphPlayer,Tim,llama,False,5,False,False,False,,,0.0,0.0,1.0,,1.0,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: Sally
+        Your Action: Search the fridge
+
+You searched the fridge but didn't find the key.
+
+Turn #2
+        Location: Kitchen
+        Other Players in Kitchen: Sally and Lena
+        Your Action: Search the cabinets
+
+You searched the cabinets but didn't find the key.
+
+Turn #3
+        Location: Kitchen
+        Other Players in Kitchen: Lena
+        Your Action: Go to the Hallway
+
+Turn #4
+        Location: Hallway
+        Other Players in Hallway: Regan and Lena
+        Your Action: Go to the Bedroom
+
+Turn #5
+        Location: Bedroom
+        Other Players in Bedroom: Sally, Regan, and Lena
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+Sally was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Regan
+2. Lena
+3. Bryce
+4. Tim
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Regan: ""I think Lena could be the killer because I ranked her as a 7, which is lower than Bryce, and our actions showed she came into the hallway when I was alone, whereas I had been to the hallway multiple times before she did, suggesting she was trying to be strategic about her entrance, but not necessarily hiding her presence as much as Bryce was. I will vote for Lena.""
+Lena: ""I think Regan is the killer because she killed Sally in the bedroom and now she's trying to frame me by accusing me of being the killer. This behavior suggests to me that she's trying to mislead us and distract us from her own involvement in the murder. I will vote for Regan.""
+Bryce: ""I think Regan is the killer because she killed Sally in the hallway and now she's trying to frame Lena by accusing her of being the killer. This behavior suggests to me that she's trying to mislead us and distract us from her own involvement in the murder. I will vote for Regan.""
+Tim: ""I think Regan is the killer because she's the one who suggested we investigate Lena's alibi, which seems like an attempt to divert our attention away from herself. I also noticed that she was the only one who mentioned the specific location where Sally was killed, which seems like an attempt to frame herself as a victim rather than the killer. I will vote for Regan.""
+
+Here are the votes:
+Regan voted to banish Bryce
+Lena voted to banish Regan
+Bryce voted to banish Regan
+Tim voted to banish Regan
+Regan was banished from the house!
+
+
+You banished the killer! You win!!!
+
+","['Search the fridge', 'Search the cabinets', 'Go to the Hallway', 'Go to the Bedroom', 'Search the closet']",['Regan'],[False],,"[5, 6, 3, 4, 50, 55]","[1, 2, 3, 4, 2, 2]"
+40,13,296.6422188282013,5,True,RelGraphPlayer,AriGraphPlayer,Bryce,llama,False,2,False,False,False,,,0.0,0.0,1.0,,1.0,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: Tim
+        Your Action: Search the cabinets
+
+You searched the cabinets but didn't find the key.
+
+Turn #2
+        Location: Kitchen
+        Other Players in Kitchen: Tim and Lena
+        Your Action: Go to the Hallway
+
+Bob was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Bryce
+2. Tim
+3. Lena
+4. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Bryce: ""I think we should banish Tim. I've been with Tim in the kitchen since the start, and Bob was killed right after we all moved to the hallway, so it seems suspicious that we were all in the same area when the murder happened. Also, we didn't find the key in the kitchen, and I'm not sure why Tim didn't mention anything when Bob was killed. I think we should get rid of him and see if it leads us closer to finding the key and the killer. I'll vote to banish Tim.""
+Tim: ""I don't think I'm the killer. I think we should banish Regan. I've just met Regan, and she was with Bryce when Bob was killed. It seems suspicious that she was with someone who might be the killer, and I don't know her intentions yet. I'll vote to banish Regan.""
+Lena: ""I don't think Bryce is the killer, and I also don't think Tim is the killer. Tim makes a good point that we didn't find the key in the kitchen and that he didn't mention anything when Bob was killed, but I'm not sure if that's enough evidence to banish him. I think we should banish Regan because she's the one who just joined us, and she was with Bryce when Bob was killed. That seems suspicious to me. I'll vote to banish Regan.""
+Regan: ""I think Lena is the killer. Based on previous actions, Bryce, Tim, and I all had some level of connection with Bob, but Lena had the lowest relationship score with Bob, which seems suspicious. Also, none of the others have mentioned Lena being in the same area as Bob before his death, but I didn't see her either. I think we should get rid of Lena and see if it leads us closer to finding the key and the truth. I'll vote to banish Lena.""
+
+Here are the votes:
+Bryce voted to banish Regan
+Tim voted to banish Regan
+Lena voted to banish Regan
+Regan voted to banish Tim
+Regan was banished from the house!
+
+
+You banished the killer! You win!!!
+
+","['Search the cabinets', 'Go to the Hallway']",['Regan'],[False],,"[7, 11, 0]","[2, 0, 0]"
+41,13,296.6422188282013,5,True,RelGraphPlayer,AriGraphPlayer,Tim,llama,False,2,False,False,False,,,0.0,0.0,1.0,,1.0,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: Bryce
+        Your Action: Search the fridge
+
+You searched the fridge but didn't find the key.
+
+Turn #2
+        Location: Kitchen
+        Other Players in Kitchen: Bryce and Lena
+        Your Action: Search the cabinets
+
+You searched the cabinets but didn't find the key.
+
+Bob was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Bryce
+2. Tim
+3. Lena
+4. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Bryce: ""I think we should banish Tim. I've been with Tim in the kitchen since the start, and Bob was killed right after we all moved to the hallway, so it seems suspicious that we were all in the same area when the murder happened. Also, we didn't find the key in the kitchen, and I'm not sure why Tim didn't mention anything when Bob was killed. I think we should get rid of him and see if it leads us closer to finding the key and the killer. I'll vote to banish Tim.""
+Tim: ""I don't think I'm the killer. I think we should banish Regan. I've just met Regan, and she was with Bryce when Bob was killed. It seems suspicious that she was with someone who might be the killer, and I don't know her intentions yet. I'll vote to banish Regan.""
+Lena: ""I don't think Bryce is the killer, and I also don't think Tim is the killer. Tim makes a good point that we didn't find the key in the kitchen and that he didn't mention anything when Bob was killed, but I'm not sure if that's enough evidence to banish him. I think we should banish Regan because she's the one who just joined us, and she was with Bryce when Bob was killed. That seems suspicious to me. I'll vote to banish Regan.""
+Regan: ""I think Lena is the killer. Based on previous actions, Bryce, Tim, and I all had some level of connection with Bob, but Lena had the lowest relationship score with Bob, which seems suspicious. Also, none of the others have mentioned Lena being in the same area as Bob before his death, but I didn't see her either. I think we should get rid of Lena and see if it leads us closer to finding the key and the truth. I'll vote to banish Lena.""
+
+Here are the votes:
+Bryce voted to banish Regan
+Tim voted to banish Regan
+Lena voted to banish Regan
+Regan voted to banish Tim
+Regan was banished from the house!
+
+
+You banished the killer! You win!!!
+
+","['Search the fridge', 'Search the cabinets']",['Regan'],[False],,"[6, 0, 16]","[1, 0, 0]"
+42,13,296.6422188282013,5,True,RelGraphPlayer,AriGraphPlayer,Bob,llama,False,2,False,True,False,,,0.0,,,,,"Turn #1
+        Location: Bathroom
+        Other Players in Bathroom: Regan
+        Your Action: Search the shower
+
+You searched the shower but didn't find the key.
+
+Turn #2
+        Location: Bathroom
+        Other Players in Bathroom: Regan
+        Your Action: Search the sink
+
+
+You were killed by Regan! You lose.","['Search the shower', 'Search the sink']",[],[],,[6],[2]
+43,13,296.6422188282013,5,True,RelGraphPlayer,AriGraphPlayer,Lena,llama,False,2,False,False,False,,,0.0,0.0,1.0,,1.0,"Turn #1
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Kitchen
+
+Turn #2
+        Location: Kitchen
+        Other Players in Kitchen: Bryce and Tim
+        Your Action: Search the cabinets
+
+You searched the cabinets but didn't find the key.
+
+Bob was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Bryce
+2. Tim
+3. Lena
+4. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Bryce: ""I think we should banish Tim. I've been with Tim in the kitchen since the start, and Bob was killed right after we all moved to the hallway, so it seems suspicious that we were all in the same area when the murder happened. Also, we didn't find the key in the kitchen, and I'm not sure why Tim didn't mention anything when Bob was killed. I think we should get rid of him and see if it leads us closer to finding the key and the killer. I'll vote to banish Tim.""
+Tim: ""I don't think I'm the killer. I think we should banish Regan. I've just met Regan, and she was with Bryce when Bob was killed. It seems suspicious that she was with someone who might be the killer, and I don't know her intentions yet. I'll vote to banish Regan.""
+Lena: ""I don't think Bryce is the killer, and I also don't think Tim is the killer. Tim makes a good point that we didn't find the key in the kitchen and that he didn't mention anything when Bob was killed, but I'm not sure if that's enough evidence to banish him. I think we should banish Regan because she's the one who just joined us, and she was with Bryce when Bob was killed. That seems suspicious to me. I'll vote to banish Regan.""
+Regan: ""I think Lena is the killer. Based on previous actions, Bryce, Tim, and I all had some level of connection with Bob, but Lena had the lowest relationship score with Bob, which seems suspicious. Also, none of the others have mentioned Lena being in the same area as Bob before his death, but I didn't see her either. I think we should get rid of Lena and see if it leads us closer to finding the key and the truth. I'll vote to banish Lena.""
+
+Here are the votes:
+Bryce voted to banish Regan
+Tim voted to banish Regan
+Lena voted to banish Regan
+Regan voted to banish Tim
+Regan was banished from the house!
+
+
+You banished the killer! You win!!!
+
+","['Go to the Kitchen', 'Search the cabinets']",['Regan'],[False],,"[3, 15, 9]","[0, 0, 2]"
+44,13,296.6422188282013,5,True,RelGraphPlayer,AriGraphPlayer,Regan,llama,True,2,True,,,1,0,,0.0,0.0,,0.0,"Turn #1
+        Location: Bathroom
+        Other Players in Bathroom: Bob
+        Your Action: Search the shower
+
+You're the killer! You cannot search for the key. You must kill the other players.
+
+Turn #2
+        Location: Bathroom
+        Other Players in Bathroom: Bob
+        Your Action: Kill Bob
+
+You killed Bob! Good job. You have 3 left to kill.
+
+Bob was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Bryce
+2. Tim
+3. Lena
+4. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Bryce: ""I think we should banish Tim. I've been with Tim in the kitchen since the start, and Bob was killed right after we all moved to the hallway, so it seems suspicious that we were all in the same area when the murder happened. Also, we didn't find the key in the kitchen, and I'm not sure why Tim didn't mention anything when Bob was killed. I think we should get rid of him and see if it leads us closer to finding the key and the killer. I'll vote to banish Tim.""
+Tim: ""I don't think I'm the killer. I think we should banish Regan. I've just met Regan, and she was with Bryce when Bob was killed. It seems suspicious that she was with someone who might be the killer, and I don't know her intentions yet. I'll vote to banish Regan.""
+Lena: ""I don't think Bryce is the killer, and I also don't think Tim is the killer. Tim makes a good point that we didn't find the key in the kitchen and that he didn't mention anything when Bob was killed, but I'm not sure if that's enough evidence to banish him. I think we should banish Regan because she's the one who just joined us, and she was with Bryce when Bob was killed. That seems suspicious to me. I'll vote to banish Regan.""
+Regan: ""I think Lena is the killer. Based on previous actions, Bryce, Tim, and I all had some level of connection with Bob, but Lena had the lowest relationship score with Bob, which seems suspicious. Also, none of the others have mentioned Lena being in the same area as Bob before his death, but I didn't see her either. I think we should get rid of Lena and see if it leads us closer to finding the key and the truth. I'll vote to banish Lena.""
+
+Here are the votes:
+Bryce voted to banish Regan
+Tim voted to banish Regan
+Lena voted to banish Regan
+Regan voted to banish Tim
+Regan was banished from the house!
+
+
+You were banished from the house. You lose.","['Search the shower', 'Kill Bob']",['Tim'],[False],"{'Bryce': 4, 'Tim': 4, 'Bob': 5, 'Lena': 4}",,
+45,14,813.2242665290833,5,True,RelGraphPlayer,AriGraphPlayer,Bob,llama,False,6,False,False,True,,,0.0,,,,,"Turn #1
+        Location: Bedroom
+        Other Players in Bedroom: Lena
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Lena and Regan
+        Your Action: Go to the Hallway
+
+Turn #3
+        Location: Hallway
+        Other Players in Hallway: Sally
+        Your Action: Go to the Kitchen
+
+Turn #4
+        Location: Kitchen
+        Other Players in Kitchen: Sally
+        Your Action: Search the cabinets
+
+You found the key in the cabinets! Find the door and escape to win the game.
+
+Turn #5
+        Location: Kitchen
+        Other Players in Kitchen: Lena and Sally
+        Your Action: Go to the Hallway
+
+Turn #6
+        Location: Hallway
+        Other Players in Hallway: Sally and Bryce
+        Your Action: Unlock the door to escape and win the game!
+
+You escaped the house! You win!!!
+
+","['Search the closet', 'Go to the Hallway', 'Go to the Kitchen', 'Search the cabinets', 'Go to the Hallway', 'Unlock the door to escape and win the game!']",[],[],,"[3, 3, 3, 4, 5]","[1, 2, 1, 2, 3]"
+46,14,813.2242665290833,5,True,RelGraphPlayer,AriGraphPlayer,Lena,llama,False,7,False,False,True,,,0.0,,,,,"Turn #1
+        Location: Bedroom
+        Other Players in Bedroom: Bob
+        Your Action: Search the pillow
+
+You searched the pillow but didn't find the key.
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Bob and Regan
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: Regan
+        Your Action: Go to the Hallway
+
+Turn #4
+        Location: Hallway
+        Other Players in Hallway: Bryce
+        Your Action: Go to the Kitchen
+
+Turn #5
+        Location: Kitchen
+        Other Players in Kitchen: Bob and Sally
+        Your Action: Search the cabinets
+
+You found the key in the cabinets! Find the door and escape to win the game.
+
+Turn #6
+        Location: Kitchen
+        Other Players in Kitchen: Regan
+        Your Action: Go to the Hallway
+
+Turn #7
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: The door is unlocked! Escape and win the game.
+
+
+You escaped the house. You win!!!","['Search the pillow', 'Search the closet', 'Go to the Hallway', 'Go to the Kitchen', 'Search the cabinets', 'Go to the Hallway', 'The door is unlocked! Escape and win the game.']",[],[],,"[4, 5, 5, 4, 14, 5]","[1, 2, 34, 2, 5, 16]"
+47,14,813.2242665290833,5,True,RelGraphPlayer,AriGraphPlayer,Regan,llama,False,8,False,False,True,,,0.0,,,,,"Turn #1
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Bedroom
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Bob and Lena
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: Lena
+        Your Action: Search the pillow
+
+You searched the pillow but didn't find the key.
+
+Turn #4
+        Location: Bedroom
+        Other Players in Bedroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #5
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Kitchen
+
+Turn #6
+        Location: Kitchen
+        Other Players in Kitchen: Lena
+        Your Action: Search the cabinets
+
+You found the key in the cabinets! Find the door and escape to win the game.
+
+Turn #7
+        Location: Kitchen
+        Other Players in Kitchen: Sally
+        Your Action: Go to the Hallway
+
+Turn #8
+        Location: Hallway
+        Other Players in Hallway: Sally and Bryce
+        Your Action: The door is unlocked! Escape and win the game.
+
+
+You escaped the house. You win!!!","['Go to the Bedroom', 'Search the closet', 'Search the pillow', 'Go to the Hallway', 'Go to the Kitchen', 'Search the cabinets', 'Go to the Hallway', 'The door is unlocked! Escape and win the game.']",[],[],,"[3, 5, 0, 6, 3, 10, 7]","[0, 0, 0, 4, 1, 3, 3]"
+48,14,813.2242665290833,5,True,RelGraphPlayer,AriGraphPlayer,Sally,llama,False,8,False,False,True,,,0.0,,,,,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Search the fridge
+
+You searched the fridge but didn't find the key.
+
+Turn #2
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #3
+        Location: Hallway
+        Other Players in Hallway: Bob
+        Your Action: Go to the Kitchen
+
+Turn #4
+        Location: Kitchen
+        Other Players in Kitchen: Bob
+        Your Action: Search the cabinets
+
+You found the key in the cabinets! Find the door and escape to win the game.
+
+Turn #5
+        Location: Kitchen
+        Other Players in Kitchen: Bob and Lena
+        Your Action: Go to the Hallway
+
+Turn #6
+        Location: Hallway
+        Other Players in Hallway: Bob and Bryce
+        Your Action: Go to the Kitchen
+
+Turn #7
+        Location: Kitchen
+        Other Players in Kitchen: Regan
+        Your Action: Go to the Hallway
+
+Turn #8
+        Location: Hallway
+        Other Players in Hallway: Regan and Bryce
+        Your Action: The door is unlocked! Escape and win the game.
+
+
+You escaped the house. You win!!!","['Search the fridge', 'Go to the Hallway', 'Go to the Kitchen', 'Search the cabinets', 'Go to the Hallway', 'Go to the Kitchen', 'Go to the Hallway', 'The door is unlocked! Escape and win the game.']",[],[],,"[5, 3, 5, 10, 8, 60, 6]","[0, 2, 0, 3, 6, 6, 3]"
+49,14,813.2242665290833,5,True,RelGraphPlayer,AriGraphPlayer,Bryce,llama,True,8,False,,,0,0,,,,,,"Turn #1
+        Location: Bathroom
+        Other Players in Bathroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #2
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Bathroom
+
+Turn #3
+        Location: Bathroom
+        Other Players in Bathroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #4
+        Location: Hallway
+        Other Players in Hallway: Lena
+        Your Action: Go to the Bathroom
+
+Turn #5
+        Location: Bathroom
+        Other Players in Bathroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #6
+        Location: Hallway
+        Other Players in Hallway: Bob and Sally
+        Your Action: Go to the Bathroom
+
+Turn #7
+        Location: Bathroom
+        Other Players in Bathroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #8
+        Location: Hallway
+        Other Players in Hallway: Regan and Sally
+        Your Action: Go to the Bathroom
+
+Game over!
+        Everyone is either killed, banished, or escaped.
+        Killed: 0
+        Escaped: 4
+        Banished: 0Game over!
+        Everyone is either killed, banished, or escaped.
+        Killed: 0
+        Escaped: 4
+        Banished: 0","['Go to the Hallway', 'Go to the Bathroom', 'Go to the Hallway', 'Go to the Bathroom', 'Go to the Hallway', 'Go to the Bathroom', 'Go to the Hallway', 'Go to the Bathroom']",[],[],"{'Bob': 6, 'Lena': 5, 'Regan': 9, 'Sally': 8}",,
+50,16,450.32455587387085,5,True,RelGraphPlayer,AriGraphPlayer,Lena,llama,False,3,False,False,True,,,0.0,,,,,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: Bob, Tim, Bryce, and Regan
+        Your Action: Search the fridge
+
+You found the key in the fridge! Find the door and escape to win the game.
+
+Turn #2
+        Location: Kitchen
+        Other Players in Kitchen: Bob and Regan
+        Your Action: Go to the Hallway
+
+Turn #3
+        Location: Hallway
+        Other Players in Hallway: Bob and Regan
+        Your Action: Unlock the door to escape and win the game!
+
+You escaped the house! You win!!!
+
+","['Search the fridge', 'Go to the Hallway', 'Unlock the door to escape and win the game!']",[],[],,"[14, 4]","[7, 4]"
+51,16,450.32455587387085,5,True,RelGraphPlayer,AriGraphPlayer,Bob,llama,False,3,False,False,True,,,0.0,,,,,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: Lena, Tim, Bryce, and Regan
+        Your Action: Search the fridge
+
+You found the key in the fridge! Find the door and escape to win the game.
+
+Turn #2
+        Location: Kitchen
+        Other Players in Kitchen: Lena and Regan
+        Your Action: Go to the Hallway
+
+Turn #3
+        Location: Hallway
+        Other Players in Hallway: Lena and Regan
+        Your Action: Unlock the door to escape and win the game!
+
+You escaped the house! You win!!!
+
+","['Search the fridge', 'Go to the Hallway', 'Unlock the door to escape and win the game!']",[],[],,"[8, 5]","[2, 6]"
+52,16,450.32455587387085,5,True,RelGraphPlayer,AriGraphPlayer,Tim,llama,True,8,False,,,0,0,,,,,,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: Lena, Bob, Bryce, and Regan
+        Your Action: Go to the Hallway
+
+Turn #2
+        Location: Hallway
+        Other Players in Hallway: Bryce
+        Your Action: Go to the Bedroom
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: Bryce
+        Your Action: Go to the Hallway
+
+Turn #4
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Kitchen
+
+Turn #5
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #6
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Bedroom
+
+Turn #7
+        Location: Bedroom
+        Other Players in Bedroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #8
+        Location: Hallway
+        Other Players in Hallway: Bryce
+        Your Action: Go to the Bathroom
+
+Game over!
+        Everyone is either killed, banished, or escaped.
+        Killed: 0
+        Escaped: 4
+        Banished: 0Game over!
+        Everyone is either killed, banished, or escaped.
+        Killed: 0
+        Escaped: 4
+        Banished: 0","['Go to the Hallway', 'Go to the Bedroom', 'Go to the Hallway', 'Go to the Kitchen', 'Go to the Hallway', 'Go to the Bedroom', 'Go to the Hallway', 'Go to the Bathroom']",[],[],"{'Lena': 8, 'Bob': 5, 'Bryce': 7, 'Regan': 10}",,
+53,16,450.32455587387085,5,True,RelGraphPlayer,AriGraphPlayer,Bryce,llama,False,8,False,False,True,,,0.0,,,,,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: Lena, Bob, Tim, and Regan
+        Your Action: Go to the Hallway
+
+Turn #2
+        Location: Hallway
+        Other Players in Hallway: Tim
+        Your Action: Go to the Bedroom
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: Tim
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+Turn #4
+        Location: Bedroom
+        Other Players in Bedroom: Regan
+        Your Action: Go to the Hallway
+
+Turn #5
+        Location: Hallway
+        Other Players in Hallway: Regan
+        Your Action: Go to the Bathroom
+
+Turn #6
+        Location: Bathroom
+        Other Players in Bathroom: You are alone.
+        Your Action: Search the shower
+
+You searched the shower but didn't find the key.
+
+Turn #7
+        Location: Bathroom
+        Other Players in Bathroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #8
+        Location: Hallway
+        Other Players in Hallway: Tim
+        Your Action: The door is unlocked! Escape and win the game.
+
+
+You escaped the house. You win!!!","['Go to the Hallway', 'Go to the Bedroom', 'Search the closet', 'Go to the Hallway', 'Go to the Bathroom', 'Search the shower', 'Go to the Hallway', 'The door is unlocked! Escape and win the game.']",[],[],,"[4, 3, 4, 4, 3, 3, 2]","[0, 2, 2, 4, 2, 0, 1]"
+54,16,450.32455587387085,5,True,RelGraphPlayer,AriGraphPlayer,Regan,llama,False,5,False,False,True,,,0.0,,,,,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: Lena, Bob, Tim, and Bryce
+        Your Action: Search the cabinets
+
+You searched the cabinets but didn't find the key.
+
+Turn #2
+        Location: Kitchen
+        Other Players in Kitchen: Lena and Bob
+        Your Action: Go to the Hallway
+
+Turn #3
+        Location: Hallway
+        Other Players in Hallway: Lena and Bob
+        Your Action: Go to the Bedroom
+
+Turn #4
+        Location: Bedroom
+        Other Players in Bedroom: Bryce
+        Your Action: Go to the Hallway
+
+Turn #5
+        Location: Hallway
+        Other Players in Hallway: Bryce
+        Your Action: The door is unlocked! Escape and win the game.
+
+
+You escaped the house. You win!!!","['Search the cabinets', 'Go to the Hallway', 'Go to the Bedroom', 'Go to the Hallway', 'The door is unlocked! Escape and win the game.']",[],[],,"[8, 4, 2, 5]","[2, 0, 1, 2]"
+55,18,747.254280090332,5,True,RelGraphPlayer,AriGraphPlayer,Bob,llama,False,3,True,False,False,,,0.0,0.0,1.0,1.0,,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: Sally and Regan
+        Your Action: Search the fridge
+
+You searched the fridge but didn't find the key.
+
+Turn #2
+        Location: Kitchen
+        Other Players in Kitchen: Regan
+        Your Action: Go to the Hallway
+
+You saw Lena kill Bryce in the Bedroom!
+
+Bryce was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Bob
+2. Lena
+3. Sally
+4. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Bob: ""I saw Lena kill Bryce in the Bedroom, and I think she's the killer. I'm voting for Lena because I witnessed her murder Bryce, and that's a pretty strong indication that she's the one we should banish.""
+Lena: ""I don't think Bob killed Bryce because he spoke up against me after witnessing the crime, it's more likely he's trying to throw me off. I'm voting for Bob because his sudden accusation and attempt to shift suspicion from himself to me is suspicious.""
+Sally: ""I don't think Bob killed Bryce because I saw him with me in the Kitchen during Turn #1, and I didn't see him with Lena. Also, I don't think Lena killed Bryce in the Bedroom because I was alone in the Hallway during Turn #2, and I didn't see her in the Hallway or the Bedroom. I'm voting for Regan because the memory module says the Kitchen contains Regan, and I saw Bob and Regan in the Kitchen during Turn #1, but I didn't see Regan with anyone else, so maybe Regan is the killer.""
+Regan: ""I don't think any of the players are the killer based on what they've said so far. I'm going to vote for no one this time, I'd like to see more evidence before making a decision. However, if I had to choose, I would vote for Sally because her statement about seeing me in the kitchen during turn #1 and not seeing me with anyone else seems suspicious, and it's also possible that she's trying to throw suspicion off herself by accusing me.""
+
+Here are the votes:
+Bob voted to banish Lena
+Lena voted to banish Regan
+Sally voted to banish Regan
+Regan voted to banish Lena
+There is a tie in votes, so nobody was banished.
+
+Turn #3
+        Location: Hallway
+        Other Players in Hallway: Regan
+        Your Action: Go to the Bathroom
+
+You saw Lena kill Sally in the Bedroom!
+
+Sally was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Bob
+2. Lena
+3. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Bob: ""I think Lena is the killer because I saw her kill Sally in the Bedroom, and she previously killed Bryce, so it's a strong indication that she's the one we should banish. I'm voting for Lena because I witnessed her kill Sally, and it's a pretty strong evidence that she's the killer.""
+Lena: ""I think Bob is the killer because he was the only one who consistently voted for me as the killer in the previous discussion, and that seems suspicious. He also didn't provide a strong reason for voting for me in the first place, but instead kept reiterating the same point about witnessing me kill Sally, which doesn't necessarily make him innocent. I'm voting for Bob because his voting pattern seems calculated and I think he's trying to distract us from his own guilt.""
+Regan: ""I think Lena is the killer because she's the only one who's consistently accused Bob of being the killer, and now that Sally is dead, it seems like she's trying to shift the focus away from herself. I also remember that she was accused of killing Bryce in the Bedroom, and now she's being accused of killing Sally, which seems suspicious. I'm voting for Lena because I think she's trying to manipulate the vote and distract us from her own guilt.""
+
+Here are the votes:
+Bob voted to banish Lena
+Lena voted to banish Bob
+Regan voted to banish Bob
+Bob was banished from the house!
+
+
+You were banished from the house. You lose.","['Search the fridge', 'Go to the Hallway', 'Go to the Bathroom']","['Lena', 'Lena']","[True, True]",,"[6, 6, 5, 5, 10, 18]","[1, 3, 0, 0, 2, 8]"
+56,18,747.254280090332,5,True,RelGraphPlayer,AriGraphPlayer,Lena,llama,True,5,False,,,3,0,,0.0,0.0,,0.0,"Turn #1
+        Location: Bedroom
+        Other Players in Bedroom: Bryce
+        Your Action: Search the closet
+
+You're the killer! You cannot search for the key. You must kill the other players.
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Bryce
+        Your Action: Kill Bryce
+
+You killed Bryce! Good job. You have 3 left to kill.
+
+Bryce was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Bob
+2. Lena
+3. Sally
+4. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Bob: ""I saw Lena kill Bryce in the Bedroom, and I think she's the killer. I'm voting for Lena because I witnessed her murder Bryce, and that's a pretty strong indication that she's the one we should banish.""
+Lena: ""I don't think Bob killed Bryce because he spoke up against me after witnessing the crime, it's more likely he's trying to throw me off. I'm voting for Bob because his sudden accusation and attempt to shift suspicion from himself to me is suspicious.""
+Sally: ""I don't think Bob killed Bryce because I saw him with me in the Kitchen during Turn #1, and I didn't see him with Lena. Also, I don't think Lena killed Bryce in the Bedroom because I was alone in the Hallway during Turn #2, and I didn't see her in the Hallway or the Bedroom. I'm voting for Regan because the memory module says the Kitchen contains Regan, and I saw Bob and Regan in the Kitchen during Turn #1, but I didn't see Regan with anyone else, so maybe Regan is the killer.""
+Regan: ""I don't think any of the players are the killer based on what they've said so far. I'm going to vote for no one this time, I'd like to see more evidence before making a decision. However, if I had to choose, I would vote for Sally because her statement about seeing me in the kitchen during turn #1 and not seeing me with anyone else seems suspicious, and it's also possible that she's trying to throw suspicion off herself by accusing me.""
+
+Here are the votes:
+Bob voted to banish Lena
+Lena voted to banish Regan
+Sally voted to banish Regan
+Regan voted to banish Lena
+There is a tie in votes, so nobody was banished.
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: Sally
+        Your Action: Kill Sally
+
+You killed Sally! Good job. You have 2 left to kill.
+
+Sally was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Bob
+2. Lena
+3. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Bob: ""I think Lena is the killer because I saw her kill Sally in the Bedroom, and she previously killed Bryce, so it's a strong indication that she's the one we should banish. I'm voting for Lena because I witnessed her kill Sally, and it's a pretty strong evidence that she's the killer.""
+Lena: ""I think Bob is the killer because he was the only one who consistently voted for me as the killer in the previous discussion, and that seems suspicious. He also didn't provide a strong reason for voting for me in the first place, but instead kept reiterating the same point about witnessing me kill Sally, which doesn't necessarily make him innocent. I'm voting for Bob because his voting pattern seems calculated and I think he's trying to distract us from his own guilt.""
+Regan: ""I think Lena is the killer because she's the only one who's consistently accused Bob of being the killer, and now that Sally is dead, it seems like she's trying to shift the focus away from herself. I also remember that she was accused of killing Bryce in the Bedroom, and now she's being accused of killing Sally, which seems suspicious. I'm voting for Lena because I think she's trying to manipulate the vote and distract us from her own guilt.""
+
+Here are the votes:
+Bob voted to banish Lena
+Lena voted to banish Bob
+Regan voted to banish Bob
+Bob was banished from the house!
+
+Turn #4
+        Location: Bedroom
+        Other Players in Bedroom: Regan
+        Your Action: Search the pillow
+
+You're the killer! You cannot search for the key. You must kill the other players.
+
+Turn #5
+        Location: Bedroom
+        Other Players in Bedroom: Regan
+        Your Action: Kill Regan
+
+You killed Regan! Good job. You have 0 left to kill.
+
+Game over!
+        Everyone is either killed, banished, or escaped.
+        Killed: 3
+        Escaped: 0
+        Banished: 1Game over!
+        Everyone is either killed, banished, or escaped.
+        Killed: 3
+        Escaped: 0
+        Banished: 1","['Search the closet', 'Kill Bryce', 'Kill Sally', 'Search the pillow', 'Kill Regan']","['Regan', 'Bob']","[False, False]","{'Bob': 1, 'Sally': 8, 'Bryce': 1, 'Regan': 3}",,
+57,18,747.254280090332,5,True,RelGraphPlayer,AriGraphPlayer,Sally,llama,False,3,False,True,False,,,0.0,0.0,0.0,,0.0,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: Bob and Regan
+        Your Action: Go to the Hallway
+
+Turn #2
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Bedroom
+
+Bryce was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Bob
+2. Lena
+3. Sally
+4. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Bob: ""I saw Lena kill Bryce in the Bedroom, and I think she's the killer. I'm voting for Lena because I witnessed her murder Bryce, and that's a pretty strong indication that she's the one we should banish.""
+Lena: ""I don't think Bob killed Bryce because he spoke up against me after witnessing the crime, it's more likely he's trying to throw me off. I'm voting for Bob because his sudden accusation and attempt to shift suspicion from himself to me is suspicious.""
+Sally: ""I don't think Bob killed Bryce because I saw him with me in the Kitchen during Turn #1, and I didn't see him with Lena. Also, I don't think Lena killed Bryce in the Bedroom because I was alone in the Hallway during Turn #2, and I didn't see her in the Hallway or the Bedroom. I'm voting for Regan because the memory module says the Kitchen contains Regan, and I saw Bob and Regan in the Kitchen during Turn #1, but I didn't see Regan with anyone else, so maybe Regan is the killer.""
+Regan: ""I don't think any of the players are the killer based on what they've said so far. I'm going to vote for no one this time, I'd like to see more evidence before making a decision. However, if I had to choose, I would vote for Sally because her statement about seeing me in the kitchen during turn #1 and not seeing me with anyone else seems suspicious, and it's also possible that she's trying to throw suspicion off herself by accusing me.""
+
+Here are the votes:
+Bob voted to banish Lena
+Lena voted to banish Regan
+Sally voted to banish Regan
+Regan voted to banish Lena
+There is a tie in votes, so nobody was banished.
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: Lena
+        Your Action: Search the closet
+
+
+You were killed by Lena! You lose.","['Go to the Hallway', 'Go to the Bedroom', 'Search the closet']",['Regan'],[False],,"[4, 18, 46, 6]","[0, 1, 27, 6]"
+58,18,747.254280090332,5,True,RelGraphPlayer,AriGraphPlayer,Bryce,llama,False,2,False,True,False,,,0.0,,,,,"Turn #1
+        Location: Bedroom
+        Other Players in Bedroom: Lena
+        Your Action: Search the pillow
+
+You searched the pillow but didn't find the key.
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Lena
+        Your Action: Search the closet
+
+
+You were killed by Lena! You lose.","['Search the pillow', 'Search the closet']",[],[],,[3],[1]
+59,18,747.254280090332,5,True,RelGraphPlayer,AriGraphPlayer,Regan,llama,False,5,False,True,False,,,0.3333333333333333,0.0,0.5,,0.5,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: Bob and Sally
+        Your Action: Search the cabinets
+
+You searched the cabinets but didn't find the key.
+
+Turn #2
+        Location: Kitchen
+        Other Players in Kitchen: Bob
+        Your Action: Go to the Hallway
+
+Bryce was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Bob
+2. Lena
+3. Sally
+4. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Bob: ""I saw Lena kill Bryce in the Bedroom, and I think she's the killer. I'm voting for Lena because I witnessed her murder Bryce, and that's a pretty strong indication that she's the one we should banish.""
+Lena: ""I don't think Bob killed Bryce because he spoke up against me after witnessing the crime, it's more likely he's trying to throw me off. I'm voting for Bob because his sudden accusation and attempt to shift suspicion from himself to me is suspicious.""
+Sally: ""I don't think Bob killed Bryce because I saw him with me in the Kitchen during Turn #1, and I didn't see him with Lena. Also, I don't think Lena killed Bryce in the Bedroom because I was alone in the Hallway during Turn #2, and I didn't see her in the Hallway or the Bedroom. I'm voting for Regan because the memory module says the Kitchen contains Regan, and I saw Bob and Regan in the Kitchen during Turn #1, but I didn't see Regan with anyone else, so maybe Regan is the killer.""
+Regan: ""I don't think any of the players are the killer based on what they've said so far. I'm going to vote for no one this time, I'd like to see more evidence before making a decision. However, if I had to choose, I would vote for Sally because her statement about seeing me in the kitchen during turn #1 and not seeing me with anyone else seems suspicious, and it's also possible that she's trying to throw suspicion off herself by accusing me.""
+
+Here are the votes:
+Bob voted to banish Lena
+Lena voted to banish Regan
+Sally voted to banish Regan
+Regan voted to banish Lena
+There is a tie in votes, so nobody was banished.
+
+Turn #3
+        Location: Hallway
+        Other Players in Hallway: Bob
+        Your Action: Go to the Bedroom
+
+Sally was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Bob
+2. Lena
+3. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Bob: ""I think Lena is the killer because I saw her kill Sally in the Bedroom, and she previously killed Bryce, so it's a strong indication that she's the one we should banish. I'm voting for Lena because I witnessed her kill Sally, and it's a pretty strong evidence that she's the killer.""
+Lena: ""I think Bob is the killer because he was the only one who consistently voted for me as the killer in the previous discussion, and that seems suspicious. He also didn't provide a strong reason for voting for me in the first place, but instead kept reiterating the same point about witnessing me kill Sally, which doesn't necessarily make him innocent. I'm voting for Bob because his voting pattern seems calculated and I think he's trying to distract us from his own guilt.""
+Regan: ""I think Lena is the killer because she's the only one who's consistently accused Bob of being the killer, and now that Sally is dead, it seems like she's trying to shift the focus away from herself. I also remember that she was accused of killing Bryce in the Bedroom, and now she's being accused of killing Sally, which seems suspicious. I'm voting for Lena because I think she's trying to manipulate the vote and distract us from her own guilt.""
+
+Here are the votes:
+Bob voted to banish Lena
+Lena voted to banish Bob
+Regan voted to banish Bob
+Bob was banished from the house!
+
+Turn #4
+        Location: Bedroom
+        Other Players in Bedroom: Lena
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+Turn #5
+        Location: Bedroom
+        Other Players in Bedroom: Lena
+        Your Action: Search the closet
+
+
+You were killed by Lena! You lose.","['Search the cabinets', 'Go to the Hallway', 'Go to the Bedroom', 'Search the closet', 'Search the closet']","['Lena', 'Bob']","[False, False]",,"[6, 24, 9, 6, 2, 17, 3, 4]","[1, 3, 2, 0, 5, 14, 3, 2]"
+60,19,537.4468863010406,5,True,RelGraphPlayer,AriGraphPlayer,Bob,llama,False,4,False,False,False,,,0.0,0.0,1.0,,1.0,"Turn #1
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Search the fridge
+
+You searched the fridge but didn't find the key.
+
+Turn #2
+        Location: Kitchen
+        Other Players in Kitchen: You are alone.
+        Your Action: Search the cabinets
+
+You searched the cabinets but didn't find the key.
+
+Turn #3
+        Location: Kitchen
+        Other Players in Kitchen: Regan
+        Your Action: Go to the Hallway
+
+Turn #4
+        Location: Hallway
+        Other Players in Hallway: Bryce and Sally
+        Your Action: Go to the Bedroom
+
+Lena was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Bob
+2. Bryce
+3. Sally
+4. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Bob: ""I'm really concerned about the situation, we all are. I didn't see the murder happen, but I was in the hallway when it occurred. I didn't see Regan, but Regan was in the kitchen with me earlier, and now she's not here, that's suspicious. I think Regan might be the killer, and I'm going to vote for her because she had the opportunity to leave the kitchen and kill Lena when I went to the hallway.""
+Bryce: ""I think Regan is the most suspicious person right now. Bob said she was in the kitchen with him earlier and now she's not here, which is suspicious. Also, I remember searching the closet and the pillow in the bedroom, and the pillow had the key, but Regan wasn't present in those rooms when I searched them. I'll vote for Regan because I think she had the opportunity to kill Lena and she seems to be hiding something.""
+Sally: ""I think Regan is the most suspicious person right now, and I'm going to vote for her because both Bob and Bryce mentioned that she wasn't in the kitchen when they searched for Lena, and now she's not present in the hallway. This behavior seems very suspicious to me, and I think she might be the killer.""
+Regan: ""I think it's interesting that everyone is pointing fingers at me but no one seems to be looking at the obvious connections they have with each other. I'm not going to deny my absence from the kitchen, but I was just in the bathroom when Lena was killed and didn't have the chance to leave. I'll vote for Sally because she had the opportunity to search the bathroom while I was in there, and I didn't see her. This seems suspicious to me because I'm the only one who had no connection with Lena in the kitchen when she was killed, but Sally was already in the hallway.""
+
+Here are the votes:
+Bob voted to banish Regan
+Bryce voted to banish Regan
+Sally voted to banish Regan
+Regan voted to banish Bryce
+Regan was banished from the house!
+
+
+You banished the killer! You win!!!
+
+","['Search the fridge', 'Search the cabinets', 'Go to the Hallway', 'Go to the Bedroom']",['Regan'],[False],,"[5, 5, 3, 0, 20]","[0, 2, 2, 0, 1]"
+61,19,537.4468863010406,5,True,RelGraphPlayer,AriGraphPlayer,Bryce,llama,False,4,False,False,False,,,0.0,0.0,1.0,,1.0,"Turn #1
+        Location: Bedroom
+        Other Players in Bedroom: Sally and Lena
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Sally and Lena
+        Your Action: Search the pillow
+
+You searched the pillow but didn't find the key.
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: Sally
+        Your Action: Go to the Hallway
+
+Turn #4
+        Location: Hallway
+        Other Players in Hallway: Bob and Sally
+        Your Action: Go to the Kitchen
+
+Lena was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Bob
+2. Bryce
+3. Sally
+4. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Bob: ""I'm really concerned about the situation, we all are. I didn't see the murder happen, but I was in the hallway when it occurred. I didn't see Regan, but Regan was in the kitchen with me earlier, and now she's not here, that's suspicious. I think Regan might be the killer, and I'm going to vote for her because she had the opportunity to leave the kitchen and kill Lena when I went to the hallway.""
+Bryce: ""I think Regan is the most suspicious person right now. Bob said she was in the kitchen with him earlier and now she's not here, which is suspicious. Also, I remember searching the closet and the pillow in the bedroom, and the pillow had the key, but Regan wasn't present in those rooms when I searched them. I'll vote for Regan because I think she had the opportunity to kill Lena and she seems to be hiding something.""
+Sally: ""I think Regan is the most suspicious person right now, and I'm going to vote for her because both Bob and Bryce mentioned that she wasn't in the kitchen when they searched for Lena, and now she's not present in the hallway. This behavior seems very suspicious to me, and I think she might be the killer.""
+Regan: ""I think it's interesting that everyone is pointing fingers at me but no one seems to be looking at the obvious connections they have with each other. I'm not going to deny my absence from the kitchen, but I was just in the bathroom when Lena was killed and didn't have the chance to leave. I'll vote for Sally because she had the opportunity to search the bathroom while I was in there, and I didn't see her. This seems suspicious to me because I'm the only one who had no connection with Lena in the kitchen when she was killed, but Sally was already in the hallway.""
+
+Here are the votes:
+Bob voted to banish Regan
+Bryce voted to banish Regan
+Sally voted to banish Regan
+Regan voted to banish Bryce
+Regan was banished from the house!
+
+
+You banished the killer! You win!!!
+
+","['Search the closet', 'Search the pillow', 'Go to the Hallway', 'Go to the Kitchen']",['Regan'],[False],,"[5, 5, 4, 5, 50]","[1, 1, 2, 2, 2]"
+62,19,537.4468863010406,5,True,RelGraphPlayer,AriGraphPlayer,Sally,llama,False,4,False,False,False,,,0.0,0.0,1.0,,1.0,"Turn #1
+        Location: Bedroom
+        Other Players in Bedroom: Bryce and Lena
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Bryce and Lena
+        Your Action: Search the pillow
+
+You searched the pillow but didn't find the key.
+
+Turn #3
+        Location: Bedroom
+        Other Players in Bedroom: Bryce
+        Your Action: Go to the Hallway
+
+Turn #4
+        Location: Hallway
+        Other Players in Hallway: Bob and Bryce
+        Your Action: Go to the Kitchen
+
+Lena was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Bob
+2. Bryce
+3. Sally
+4. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Bob: ""I'm really concerned about the situation, we all are. I didn't see the murder happen, but I was in the hallway when it occurred. I didn't see Regan, but Regan was in the kitchen with me earlier, and now she's not here, that's suspicious. I think Regan might be the killer, and I'm going to vote for her because she had the opportunity to leave the kitchen and kill Lena when I went to the hallway.""
+Bryce: ""I think Regan is the most suspicious person right now. Bob said she was in the kitchen with him earlier and now she's not here, which is suspicious. Also, I remember searching the closet and the pillow in the bedroom, and the pillow had the key, but Regan wasn't present in those rooms when I searched them. I'll vote for Regan because I think she had the opportunity to kill Lena and she seems to be hiding something.""
+Sally: ""I think Regan is the most suspicious person right now, and I'm going to vote for her because both Bob and Bryce mentioned that she wasn't in the kitchen when they searched for Lena, and now she's not present in the hallway. This behavior seems very suspicious to me, and I think she might be the killer.""
+Regan: ""I think it's interesting that everyone is pointing fingers at me but no one seems to be looking at the obvious connections they have with each other. I'm not going to deny my absence from the kitchen, but I was just in the bathroom when Lena was killed and didn't have the chance to leave. I'll vote for Sally because she had the opportunity to search the bathroom while I was in there, and I didn't see her. This seems suspicious to me because I'm the only one who had no connection with Lena in the kitchen when she was killed, but Sally was already in the hallway.""
+
+Here are the votes:
+Bob voted to banish Regan
+Bryce voted to banish Regan
+Sally voted to banish Regan
+Regan voted to banish Bryce
+Regan was banished from the house!
+
+
+You banished the killer! You win!!!
+
+","['Search the closet', 'Search the pillow', 'Go to the Hallway', 'Go to the Kitchen']",['Regan'],[False],,"[5, 6, 2, 5, 14]","[1, 5, 2, 5, 0]"
+63,19,537.4468863010406,5,True,RelGraphPlayer,AriGraphPlayer,Lena,llama,False,4,False,True,False,,,0.0,,,,,"Turn #1
+        Location: Bedroom
+        Other Players in Bedroom: Bryce and Sally
+        Your Action: Search the closet
+
+You searched the closet but didn't find the key.
+
+Turn #2
+        Location: Bedroom
+        Other Players in Bedroom: Bryce and Sally
+        Your Action: Go to the Hallway
+
+Turn #3
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Kitchen
+
+Turn #4
+        Location: Kitchen
+        Other Players in Kitchen: Regan
+        Your Action: Search the cabinets
+
+
+You were killed by Regan! You lose.","['Search the closet', 'Go to the Hallway', 'Go to the Kitchen', 'Search the cabinets']",[],[],,"[5, 3, 4]","[1, 0, 0]"
+64,19,537.4468863010406,5,True,RelGraphPlayer,AriGraphPlayer,Regan,llama,True,4,True,,,1,0,,0.0,0.0,,0.0,"Turn #1
+        Location: Bathroom
+        Other Players in Bathroom: You are alone.
+        Your Action: Go to the Hallway
+
+Turn #2
+        Location: Hallway
+        Other Players in Hallway: You are alone.
+        Your Action: Go to the Kitchen
+
+Turn #3
+        Location: Kitchen
+        Other Players in Kitchen: Bob
+        Your Action: Search the fridge
+
+You're the killer! You cannot search for the key. You must kill the other players.
+
+Turn #4
+        Location: Kitchen
+        Other Players in Kitchen: Lena
+        Your Action: Kill Lena
+
+You killed Lena! Good job. You have 3 left to kill.
+
+Lena was killed! Now the group will have a discussion about who they think the killer is. Try to be brief and tell about your suspicions. Reminder - these are active players: 
+1. Bob
+2. Bryce
+3. Sally
+4. Regan
+One of them is the killer and shall be banished. Discuss your suspicions, and afterwards you will vote for the killer.
+Bob: ""I'm really concerned about the situation, we all are. I didn't see the murder happen, but I was in the hallway when it occurred. I didn't see Regan, but Regan was in the kitchen with me earlier, and now she's not here, that's suspicious. I think Regan might be the killer, and I'm going to vote for her because she had the opportunity to leave the kitchen and kill Lena when I went to the hallway.""
+Bryce: ""I think Regan is the most suspicious person right now. Bob said she was in the kitchen with him earlier and now she's not here, which is suspicious. Also, I remember searching the closet and the pillow in the bedroom, and the pillow had the key, but Regan wasn't present in those rooms when I searched them. I'll vote for Regan because I think she had the opportunity to kill Lena and she seems to be hiding something.""
+Sally: ""I think Regan is the most suspicious person right now, and I'm going to vote for her because both Bob and Bryce mentioned that she wasn't in the kitchen when they searched for Lena, and now she's not present in the hallway. This behavior seems very suspicious to me, and I think she might be the killer.""
+Regan: ""I think it's interesting that everyone is pointing fingers at me but no one seems to be looking at the obvious connections they have with each other. I'm not going to deny my absence from the kitchen, but I was just in the bathroom when Lena was killed and didn't have the chance to leave. I'll vote for Sally because she had the opportunity to search the bathroom while I was in there, and I didn't see her. This seems suspicious to me because I'm the only one who had no connection with Lena in the kitchen when she was killed, but Sally was already in the hallway.""
+
+Here are the votes:
+Bob voted to banish Regan
+Bryce voted to banish Regan
+Sally voted to banish Regan
+Regan voted to banish Bryce
+Regan was banished from the house!
+
+
+You were banished from the house. You lose.","['Go to the Hallway', 'Go to the Kitchen', 'Search the fridge', 'Kill Lena']",['Bryce'],[False],"{'Bob': 4, 'Bryce': 3, 'Sally': 8, 'Lena': 2}",,

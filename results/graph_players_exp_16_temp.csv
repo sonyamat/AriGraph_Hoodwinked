@@ -1,0 +1,1 @@
+,game_num,runtime,num_players,discussion,impostor_type,innocent_type,name,agent,killer,num_turns,banished,killed,escaped,num_killed,num_escaped,duplicate_search_rate,vote_rate_for_self,vote_rate_for_killer,witness_vote_rate_for_killer,non_witness_vote_rate_for_killer,story,actions,votes,witness_during_vote,graph,graph_new_triplets_cnt,graph_replacements_cnt
